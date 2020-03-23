@@ -1,6 +1,8 @@
 <template>
   <DefaultLayout>
-    <SectionHeaderBanner :totalCount="$page.records.totalCount"></SectionHeaderBanner>
+    <SectionHeaderBanner
+      :totalCount="$page.records.totalCount"
+    ></SectionHeaderBanner>
     <section class="pt-5 mb-5">
       <b-container class="pb-5">
         <div>
@@ -15,7 +17,7 @@
       </b-container>
 
       <Pagination
-        baseUrl="/articles"
+        baseUrl="/blog"
         :currentPage="$page.records.pageInfo.currentPage"
         :totalPages="$page.records.pageInfo.totalPages"
         :maxVisibleButtons="5"
@@ -26,27 +28,32 @@
 </template>
 
 <script>
-import RecordCard from "~/components/RecordCard.vue";
-import Pagination from "~/components/Pagination.vue";
-import SectionHeaderBanner from "~/layouts/sections/articles/HeaderBanner.vue";
+import RecordCard from '~/components/RecordCard.vue';
+import Pagination from '~/components/Pagination.vue';
+import SectionHeaderBanner from '~/layouts/sections/blog/HeaderBanner.vue';
 
 export default {
   components: {
     RecordCard,
     Pagination,
-    SectionHeaderBanner
+    SectionHeaderBanner,
   },
   metaInfo() {
     return {
-      title: `Browse all articles`
+      title: `Browse all blog posts`,
     };
-  }
+  },
 };
 </script>
 
 <page-query>
-  query ($page: Int) {
-    records: allArticle(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
+  query($page: Int) {
+    records: allArticle(
+      sortBy: "createdAt"
+      order: DESC
+      perPage: 9
+      page: $page
+    ) @paginate {
       totalCount
       pageInfo {
         totalPages
@@ -55,14 +62,14 @@ export default {
       edges {
         node {
           recordType
-          title, 
-          path,
-          slug,
-          excerpt,
-          createdAt(format:"Do MMMM YYYY"),
-          timeToRead,
+          title
+          path
+          slug
+          excerpt
+          createdAt(format: "Do MMMM YYYY")
+          timeToRead
           tags {
-            title,
+            title
             path
           }
         }

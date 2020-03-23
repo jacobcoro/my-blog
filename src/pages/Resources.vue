@@ -19,7 +19,7 @@
           </b-col>
           <b-col class="pt-3">
             <Pagination
-              :baseUrl="baseUrl(false,'','')"
+              :baseUrl="baseUrl(false, '', '')"
               :currentPage="$page.records.pageInfo.currentPage"
               :totalPages="$page.records.pageInfo.totalPages"
               :maxVisibleButtons="5"
@@ -36,8 +36,13 @@
 <script src="~/pageScripts/resources.js"></script>
 
 <page-query>
-  query($page:Int) {
-    records: allResource(sortBy:"createdAt", order:DESC, perPage: 9, page: $page) @paginate {
+  query($page: Int) {
+    records: allResource(
+      sortBy: "createdAt"
+      order: DESC
+      perPage: 9
+      page: $page
+    ) @paginate {
       totalCount
       pageInfo {
         totalPages
@@ -45,8 +50,8 @@
       }
       edges {
         node {
-          title, 
-          link,
+          title
+          link
           excerpt
         }
       }
