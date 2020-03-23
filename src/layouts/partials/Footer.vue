@@ -98,7 +98,7 @@ export default {
   computed: {},
   data() {
     return {
-      windowWidth: window.innerWidth,
+      windowWidth: null,
       locationPath: '/',
     };
   },
@@ -129,6 +129,7 @@ export default {
   },
 
   mounted() {
+    this.windowWidth = window.innerWidth;
     myBody = document.getElementsByTagName('body')[0];
     myBody.classList.remove('overlay-active');
     this.$nextTick(() => {
