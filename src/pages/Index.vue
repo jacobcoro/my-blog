@@ -2,7 +2,7 @@
   <DefaultLayout>
     <SectionHeaderBanner></SectionHeaderBanner>
 
-    <SectionLatestArticles></SectionLatestArticles>
+    <SectionFeaturedSection></SectionFeaturedSection>
 
     <SectionContribute></SectionContribute>
 
@@ -14,7 +14,7 @@
 
 <script>
 import SectionHeaderBanner from '~/layouts/sections/index/HeaderBanner.vue';
-import SectionLatestArticles from '~/layouts/sections/index/LatestArticles.vue';
+import SectionFeaturedSection from '~/layouts/sections/index/FeaturedSection.vue';
 
 import SectionContribute from '~/layouts/sections/index/Contribute.vue';
 import SectionInfoBoxes from '~/layouts/sections/index/InfoBoxes.vue';
@@ -23,7 +23,7 @@ import SectionOpenSource from '~/layouts/sections/index/OpenSource.vue';
 export default {
   components: {
     SectionHeaderBanner,
-    SectionLatestArticles,
+    SectionFeaturedSection,
     SectionContribute,
     SectionInfoBoxes,
     SectionOpenSource,
