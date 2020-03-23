@@ -45,38 +45,33 @@ export default {
 };
 </script>
 
-<style lang="stylus">
-// #main-container{
-//   align-self: start;
-// }
-
-
-#venn-left{
-   border-radius: 105px;
+<style>
+#venn-left {
+  border-radius: 105px;
 
   width: 210px;
   height: 210px;
-  z-index: 2
- background: rgba(255, 0, 0, 0.5);
+  z-index: 2;
+  background: rgba(255, 0, 0, 0.5);
 }
-#venn-right{
- border-radius: 105px;
+#venn-right {
+  border-radius: 105px;
   width: 210px;
   height: 210px;
-  background: #339CD0;
+  background: #339cd0;
 }
-#home-face-logo{
-  z-index:3;
+#home-face-logo {
+  z-index: 3;
   width: 106px;
   height: 124px;
   margin: 40px -115px;
   opacity: 0.5;
 }
-#Ed-tech-container{
+#Ed-tech-container {
   width: 290px;
-  margin:auto;
+  margin: auto;
 }
-#home-technology{
-  margin-top: -15px
+#home-technology {
+  margin-top: -15px;
 }
 </style>
