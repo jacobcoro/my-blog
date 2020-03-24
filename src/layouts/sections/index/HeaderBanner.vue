@@ -3,7 +3,7 @@
     <b-container id="main-container" class="height-70 justify-content-center">
       <b-row class="text-center justify-content-center">
         <b-col cols="12" class="">
-          <p class="home-banner small-txt ">
+          <p class="title sm-txt ">
             Jacob Cohen-Rosenthal
           </p>
         </b-col>
@@ -18,15 +18,15 @@
         </b-col>
         <b-col cols="12" md="10" lg="8" class="justify-content-center">
           <div id="Ed-tech-container">
-            <span id="home-education" class="home-banner span"
-              ><p class="home-banner large-txt">ED</p>
-              <p class="home-banner small-txt">
+            <span id="home-education" class="home-banner-span"
+              ><p class="title lg-txt">ED</p>
+              <p class="title sm-txt">
                 ucation
               </p></span
             >
-            <span id="home-technology" class="home-banner span"
-              ><p id="tech" class="home-banner large-txt ml-auto">TECH</p>
-              <p style="" class="home-banner small-txt">
+            <span id="home-technology" class="home-banner-span"
+              ><p id="tech" class="title lg-txt ml-auto">TECH</p>
+              <p style="" class="title sm-txt">
                 nology
               </p></span
             >
@@ -46,6 +46,10 @@ export default {
 </script>
 
 <style>
+.home-banner-span {
+  display: flex;
+  align-items: flex-end;
+}
 #venn-left {
   border-radius: 105px;
 

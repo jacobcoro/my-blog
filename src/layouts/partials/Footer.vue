@@ -114,9 +114,8 @@ export default {
     onResize() {
       this.windowWidth = window.innerWidth;
     },
-    checkLocation(path) {
+    checkLocation(path = null) {
       console.log(this.locationPath);
-
       if (!path) this.locationPath = window.location.pathname;
       else this.locationPath = path;
       console.log(this.locationPath);
@@ -135,6 +134,7 @@ export default {
     this.$nextTick(() => {
       window.addEventListener('resize', this.onResize);
     });
+    this.checkLocation();
   },
 };
 </script>

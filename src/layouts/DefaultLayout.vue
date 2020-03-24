@@ -1,7 +1,7 @@
 <template>
   <div>
-    <FooterPartial />
     <slot />
+    <FooterPartial />
   </div>
 </template>
 
