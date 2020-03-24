@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="overflow-hidden">
     <b-container id="about-head">
       <div id="about-centering">
         <g-image src="~/resources/images/mountain.png"></g-image>
@@ -44,7 +44,7 @@
         <b-col id="education-accumen" class="home-page-section" lg="6">
           <b-container class="max-width-400"
             ><b-row class="ml-n4"
-              ><b-col cols="6" class="ml-n3 mt-3  ">
+              ><b-col style="z-index:500" cols="6" class="ml-n3 mt-3  ">
                 <p class="title sm-txt mb-n2">Education</p>
                 <p class="title lg-txt">Accumen</p> </b-col
               ><b-col cols="6"
@@ -71,7 +71,11 @@
               </p></b-row
             >
             <b-row>
-              <g-image class="mt-2" src="~/resources/images/taco.png"></g-image>
+              <g-image
+                id="taco"
+                class="mt-2"
+                src="~/resources/images/taco.png"
+              ></g-image>
             </b-row>
           </b-container>
         </b-col>
@@ -94,17 +98,16 @@
                 birthday present for me, dark chocolate will do just fine.
               </p></b-row
             >
-            <b-row class="mt-3 ml-0 mr-0">
-              <b-col cols="8" class="p-0">
-                <g-image id="road" src="~/resources/images/road.png"> </g-image>
-              </b-col>
+            <b-row class="mt-3 ml-0 mr-0 ">
               <b-col cols="4" class="p-0">
-                <p class="title sm-txt mb-n2" style="width:150px">
+                <p class="title sm-txt mb-n2">
                   What a long strange
                 </p>
                 <p class="title lg-txt mt-n2">trip</p>
-                <p class="title sm-txt">it's been</p>
                 <div class="bottom-space"></div>
+              </b-col>
+              <b-col cols="8" class="p-0 align-self-center">
+                <g-image id="road" src="~/resources/images/road.png"> </g-image>
               </b-col>
             </b-row>
           </b-container>
@@ -174,11 +177,14 @@ export default {};
   margin-top: -159px;
   margin-left: 28px;
 }
+#taco {
+  max-width: 100%;
+  max-height: 100%;
+}
 #road {
   max-width: 100%;
   max-height: 100%;
-  margin-top: 20px;
-  margin-left: -15px;
+  margin-bottom: 80px;
 }
 #the-touch {
   mix-blend-mode: darken;

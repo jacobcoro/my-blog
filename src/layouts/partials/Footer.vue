@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <div id="navbar">
       <g-link v-if="windowWidth > 450" to="/" class="nav-link text-white">
         <g-image

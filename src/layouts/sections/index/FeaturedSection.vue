@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section class="overflow-hidden">
     <b-container id="featured-main">
       <b-row id="featured-main-row">
         <b-col
@@ -49,15 +49,14 @@
           <div class="max-width-400">
             <b-container class="mb-2 p-0">
               <b-row>
-                <b-col cols="7">
+                <b-col>
                   <p class="title sm-txt mb-n3 mt-3">showcase</p>
                   <p class="title lg-txt mb-3">Project</p>
                 </b-col>
-                <b-col cols="3" sm="4">
+                <b-col>
                   <g-image
+                    id="demo-gif"
                     class="mt-n3 "
-                    height="120%"
-                    width="140%"
                     src="~/resources/images/ray-group2.png"
                     alt="rays"
                   />
@@ -65,7 +64,10 @@
               </b-row>
             </b-container>
 
-            <div class="bg-white p-3 feature-box" id="project-box">
+            <div
+              class="bg-white p-3 feature-box overflow-hidden"
+              id="project-box"
+            >
               <b-container class="p-0">
                 <b-row>
                   <b-col cols="6">
@@ -76,9 +78,9 @@
                       src="~/resources/images/IPFC-logo.svg"
                     ></g-image>
                     <p class="mt-2 mr-n3">
-                      Inter Planetary Flash Cards is the core of an EdTech
-                      ecosystem designed to empower self directed learning and
-                      help teachers flip their classroom.
+                      IFPC is the core of an EdTech ecosystem designed to
+                      empower self directed learning and help teachers flip
+                      their classroom.
                     </p>
                   </b-col>
                   <b-col cols="5">
@@ -131,5 +133,9 @@ export default {};
 }
 #project-box {
   box-shadow: 0px 0px 150px rgba(255, 204, 0, 0.83);
+}
+#demo-gif {
+  max-width: 100%;
+  max-height: 100%;
 }
 </style>

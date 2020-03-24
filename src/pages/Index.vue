@@ -1,11 +1,13 @@
-<template>
-  <DefaultLayout>
-    <SectionHeaderBanner></SectionHeaderBanner>
+<template id="app">
+  <div>
+    <DefaultLayout>
+      <SectionHeaderBanner></SectionHeaderBanner>
 
-    <SectionFeaturedSection></SectionFeaturedSection>
+      <SectionFeaturedSection></SectionFeaturedSection>
 
-    <SectionAboutSection></SectionAboutSection>
-  </DefaultLayout>
+      <SectionAboutSection></SectionAboutSection>
+    </DefaultLayout>
+  </div>
 </template>
 
 <script>
@@ -24,3 +26,12 @@ export default {
   },
 };
 </script>
+<style scoped>
+#app {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+</style>
