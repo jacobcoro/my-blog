@@ -1,17 +1,17 @@
 <template>
   <section>
-    <b-container id="blog-header" class="p-0 m-0">
-      <g-image id="writing" src="~/resources/images/writing.png"></g-image>
+    <b-container id="projects-header" class="p-0 m-0">
+      <g-image id="writing" src="~/resources/images/wrench.png"></g-image>
 
-      <b-row class="blog-header-row p-0 m-0">
+      <b-row class="projects-header-row p-0 m-0">
         <b-col cols="12" class="p-0 m-0">
-          <p id="blog-title" class="title lg-txt">Blog</p>
+          <p id="projects-title" class="title lg-txt">Projects</p>
         </b-col>
       </b-row>
-      <b-row class="blog-header-row">
+      <b-row class="projects-header-row">
         <b-col cols="12" class="p-0 m-0 d-flex justify-content-end">
-          <p id="blog-header-subtitle" class="title sm-txt mr-1">
-            ed | tech | & more
+          <p id="projects-header-subtitle" class="title sm-txt mr-1">
+            web sites | web apps | & more
           </p>
         </b-col></b-row
       >
@@ -25,8 +25,8 @@ export default {
 };
 </script>
 <style>
-#blog-header {
-  background-color: #339cd0;
+#projects-header {
+  background-color: #993333;
   justify-content: stretch;
   width: 100%;
   height: 170px;
@@ -38,18 +38,18 @@ export default {
   left: 0;
   mix-blend-mode: darken;
   margin-right: auto;
-  opacity: 0.1;
+  opacity: 0.3;
 }
-.blog-header-row {
+.projects-header-row {
   width: 100%;
   height: 50%;
 }
-#blog-title {
+#projects-title {
   text-align: center;
   margin-top: 40px;
   padding: 0;
 }
-#blog-header-subtitle {
+#projects-header-subtitle {
   text-align: right;
   align-self: flex-end;
   margin-bottom: 0;

@@ -1,7 +1,7 @@
 <template>
   <div>
     <slot />
-    <FooterPartial />
+    <FooterPartial @scroll-to-contact="toggleScrollToContact()" />
   </div>
 </template>
 
@@ -18,6 +18,11 @@ import FooterPartial from '~/layouts/partials/Footer.vue';
 //import GoTop from '@inotom/vue-go-top';
 
 export default {
+  methods: {
+    toggleScrollToContact() {
+      this.$emit('scroll-to-contact');
+    },
+  },
   components: {
     FooterPartial,
   },

@@ -8,58 +8,43 @@
           height="30px"
           width="25px"
           class="mr-1 ml-0"
-          @click="checkLocation('/')"
         />
       </g-link>
       <g-link
         v-if="windowWidth > 616"
         to="/"
         class="nav-link navbar-name mr-auto"
-        @click="checkLocation()"
       >
         Jacob Cohen-Rosenthal
       </g-link>
-      <g-link
-        v-if="this.locationPath !== '/'"
-        to="/"
-        class="nav-link"
-        exact
-        @click="checkLocation('/')"
+      <g-link v-if="$route.path !== '/'" to="/" class="nav-link" exact
         >Home</g-link
       >
 
-      <g-link
-        v-if="this.locationPath !== '/blog'"
-        to="/blog"
-        class="nav-link"
-        exact
-        @click="checkLocation('/blog')"
+      <g-link v-if="$route.path !== '/blog'" to="/blog" class="nav-link" exact
         >Blog</g-link
       >
       <g-link
-        v-if="this.locationPath !== '/resources'"
+        v-if="$route.path !== '/resources'"
         to="/resources"
         class="nav-link"
         exact
-        @click="checkLocation('/resources')"
         >Resources</g-link
       >
       <g-link
-        v-if="this.locationPath !== '/projects'"
+        v-if="$route.path !== '/projects'"
         to="/projects"
         class="nav-link"
         exact
-        @click="checkLocation('/projects')"
         >Projects</g-link
       >
-      <g-link
-        v-if="this.locationPath !== '/contact' && windowWidth > 400"
-        to="/#contact"
-        class="nav-link"
-        exact
-        @click="checkLocation('/')"
-        >Contact</g-link
+      <a
+        v-if="windowWidth > 400"
+        class="nav-link p-0 m-0"
+        @click="scrollToContact()"
       >
+        <g-link to="/#contact" class="nav-link">Contact</g-link>
+      </a>
       <b-navbar-brand v-if="windowWidth > 500" class="d-flex mr-0">
         <a
           href="https://github.com/Jewcub"
@@ -114,11 +99,8 @@ export default {
     onResize() {
       this.windowWidth = window.innerWidth;
     },
-    checkLocation(path = null) {
-      console.log(this.locationPath);
-      if (!path) this.locationPath = window.location.pathname;
-      else this.locationPath = path;
-      console.log(this.locationPath);
+    scrollToContact() {
+      this.$emit('scroll-to-contact');
     },
   },
   watch: {},
@@ -134,11 +116,10 @@ export default {
     this.$nextTick(() => {
       window.addEventListener('resize', this.onResize);
     });
-    this.checkLocation();
   },
 };
 </script>
-<style scoped>
+<style>
 #navbar {
   position: fixed;
   bottom: 0;

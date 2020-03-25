@@ -112,19 +112,22 @@
             </b-row>
           </b-container>
         </b-col>
-        <b-col id="contact" class="home-page-section" lg="6">
+        <b-col class="contact-section home-page-section" lg="6">
           <b-container class="max-width-400">
-            <b-row
-              ><g-image
+            <a></a>
+            <b-row>
+              <g-image
                 id="the-touch"
                 src="~/resources/images/the-touch.png"
               ></g-image>
             </b-row>
-            <b-row class="ml-n4 contact-row">
+            <b-row class="ml-n4 contact-info-row">
               <p class="title sm-txt mt-4">get in</p>
               <p class="title lg-txt mt-n2 ml-1">touch</p>
-              <p class="about-p mt-n5">jacob@jacobcohen-rosenthal.me</p>
-              <div class="bottom-space"></div>
+              <p class="about-p mt-n5">
+                jacob@jacobcohen-rosenthal.me
+              </p>
+              <div id="contact" class="bottom-space"></div>
             </b-row>
           </b-container>
         </b-col>
@@ -134,7 +137,29 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    scrollToContact: { type: Boolean, default: false },
+  },
+  watch: {
+    scrollToContact() {
+      this.startScroll();
+    },
+  },
+  methods: {
+    startScroll() {
+      var elmnt = document.getElementById('contact');
+      elmnt.scrollIntoView();
+    },
+  },
+  mounted() {
+    if (window.location.hash === '#contact') {
+      this.$nextTick(() => {
+        this.startScroll();
+      });
+    }
+  },
+};
 </script>
 
 <style>
@@ -162,7 +187,7 @@ export default {};
 #my-story {
   background-color: #cc9999;
 }
-#contact {
+.contact-section {
   background-color: #ffcc00;
 }
 
@@ -192,7 +217,7 @@ export default {};
   max-width: 100%;
   max-height: 100%;
 }
-.contact-row {
+.contact-info-row {
   margin-top: -50px;
   display: flex;
   align-items: center;

@@ -3,19 +3,14 @@
     <DefaultLayout @scroll-to-contact="toggleScrollToContact()">
       <SectionHeaderBanner></SectionHeaderBanner>
 
-      <SectionFeaturedSection></SectionFeaturedSection>
-
-      <SectionAboutSection
-        :scrollToContact="scrollToContact"
-      ></SectionAboutSection>
+      <SectionProjectsSection></SectionProjectsSection>
     </DefaultLayout>
   </div>
 </template>
 
 <script>
-import SectionHeaderBanner from '~/layouts/sections/index/HeaderBanner.vue';
-import SectionFeaturedSection from '~/layouts/sections/index/FeaturedSection.vue';
-import SectionAboutSection from '~/layouts/sections/index/AboutSection.vue';
+import SectionHeaderBanner from '~/layouts/sections/projects/HeaderBanner.vue';
+import SectionProjectsSection from '~/layouts/sections/projects/ProjectsSection.vue';
 
 export default {
   data() {
@@ -30,8 +25,7 @@ export default {
   },
   components: {
     SectionHeaderBanner,
-    SectionFeaturedSection,
-    SectionAboutSection,
+    SectionProjectsSection,
   },
   metaInfo: {
     title: 'Home',
