@@ -8,3 +8,4 @@ dist
 .env.*
 static/search.json
 git-content
+trading-app/
