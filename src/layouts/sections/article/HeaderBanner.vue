@@ -1,20 +1,59 @@
 <template>
-  <section class="height-30 jarallax bg-gray-100 border-bottom">
-    
-    <div class="jarallax-img bg-pattern opacity-10"></div>
-
-    <b-container class="pt-5 pb-5">
-      <h1 class="display-4">{{ record.title }}</h1>
+  <section>
+    <b-container id="article-header" class="p-1 m-0 d-flex flex-column">
+      <g-image id="writing" src="~/resources/images/writing.png"></g-image>
+      <b-row class="article-header-row p-0 m-0">
+        <b-col cols="12" class="p-0 m-0">
+          <p id="article-title" class="title md-txt">{{ record.title }}</p>
+        </b-col>
+      </b-row>
+      <b-row class="article-header-row d-none d-md-block">
+        <b-col cols="12" class="p-0 m-0 d-flex justify-content-end">
+          <p id="article-header-subtitle" class="title xs-txt mr-1">
+            Jacob Cohen-Rosenthal
+          </p>
+        </b-col></b-row
+      >
     </b-container>
-    
   </section>
 </template>
 
 <script>
 export default {
-  components: {  
-    
-  },
-  props: ['record']
-}
+  props: ['record'],
+};
 </script>
+<style>
+#article-header {
+  background-color: #c60;
+  justify-content: center;
+  width: 100%;
+  max-width: none;
+  min-height: 170px;
+}
+#writing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: darken;
+  margin-right: auto;
+  opacity: 0.1;
+}
+.article-header-row {
+  width: 100%;
+  height: 50%;
+  margin-top: 20px;
+}
+#article-title {
+  text-align: center;
+  margin-top: 0px;
+  padding: 0;
+  font-variant: small-caps;
+}
+#article-header-subtitle {
+  text-align: right;
+  align-self: flex-end;
+  margin-bottom: 0;
+  padding: 0;
+}
+</style>

@@ -22,7 +22,8 @@ config.autoAddCss = false;
 library.add(fas);
 library.add(fab);
 
-export default function(Vue, { head, router }) {
+// router
+export default function(Vue, { head }) {
   Vue.component('DefaultLayout', DefaultLayout);
   Vue.component('EmptyLayout', EmptyLayout);
   Vue.component('font-awesome', FontAwesomeIcon);

@@ -146,8 +146,17 @@ h6,
   font-family: 'sarpanch', sans-serif;
 }
 
+.title.xs-txt {
+  font-size: 16px;
+}
+
 .title.sm-txt {
   font-size: 23px;
+}
+
+.title.md-txt {
+  font-size: 33px;
+  margin: 0;
   padding: 0;
 }
 
@@ -171,6 +180,15 @@ h6,
 
 .header-image::before {
   background-color: rgba(59, 59, 59, 0.5);
+}
+
+img {
+  max-width: 100%;
+  margin: auto;
+}
+
+strong {
+  color: black;
 }
 
 .jarallax {
@@ -424,15 +442,16 @@ img.bg-image {
   }
 }
 
-.article-content h2 a:before,
-.article-content h3 a:before {
-  content: '#';
-  font-weight: 400;
-  margin-left: -25px;
-  position: absolute;
-  color: $primary;
-  opacity: 0.8;
-}
+// this puts a hash symbol in front of headers
+// .article-content h2 a:before,
+// .article-content h3 a:before {
+//   content: '#';
+//   font-weight: 400;
+//   margin-left: -25px;
+//   position: absolute;
+//   color: $primary;
+//   opacity: 0.8;
+// }
 
 /**
  * Add back the container background-color, border-radius, padding, margin

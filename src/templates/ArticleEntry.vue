@@ -7,7 +7,13 @@
         <b-col order="2" order-lg="1" cols="12" lg="8" class="article-content">
           <div v-html="$page.entry.content" />
         </b-col>
-        <b-col lg="3" order="1" order-lg="2" offset-lg="1" class>
+        <b-col
+          class="d-none d-lg-block"
+          lg="3"
+          order="1"
+          order-lg="2"
+          offset-lg="1"
+        >
           <SectionSidebar :record="$page.entry"></SectionSidebar>
         </b-col>
       </b-row>
@@ -44,25 +50,25 @@
 
 <page-query>
   query Article($recordId: ID!, $tags: [String]) {
-    entry : article(id: $recordId) {
+    entry: article(id: $recordId) {
       title
       content
       excerpt
-      createdAt(format:"Do MMMM YYYY")
+      createdAt(format: "Do MMMM YYYY")
       timeToRead
       tags {
-          title
-          path
-      },
+        title
+        path
+      }
       headings {
         depth
         value
         anchor
-      },
+      }
     }
 
     related: allArticle(
-      filter: { id: { ne: $recordId }, tags: {containsAny: $tags} }
+      filter: { id: { ne: $recordId }, tags: { containsAny: $tags } }
     ) {
       edges {
         node {
@@ -73,8 +79,6 @@
         }
       }
     }
-
-    
   }
 </page-query>
 
