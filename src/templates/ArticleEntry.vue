@@ -1,50 +1,57 @@
 <template>
   <DefaultLayout>
     <SectionHeader :record="$page.entry"></SectionHeader>
-
-    <b-container class="mt-5 mb-5">
-      <b-row>
-        <b-col order="2" order-lg="1" cols="12" lg="8" class="article-content">
-          <div v-html="$page.entry.content" />
-        </b-col>
-        <b-col
-          class="d-none d-lg-block"
-          lg="3"
-          order="1"
-          order-lg="2"
-          offset-lg="1"
-        >
-          <SectionSidebar :record="$page.entry"></SectionSidebar>
-        </b-col>
-      </b-row>
-    </b-container>
-
-    <b-container fluid v-if="relatedRecords.length == 2">
-      <b-row class="text-center pt-5 bg-gray-100">
-        <b-col>
-          <h2 class="display-4">You might also like</h2>
-        </b-col>
-      </b-row>
-
-      <b-row class="height-30 bg-gray-100 pb-5 related-records">
-        <b-col
-          sm="12"
-          md="6"
-          class="pr-5 pl-5 mt-5 border-right"
-          v-for="relatedRecord in relatedRecords"
-          :key="relatedRecord.node.id"
-        >
-          <h4 class="">{{ relatedRecord.node.title }}</h4>
-          <p v-html="relatedRecord.node.excerpt"></p>
-
-          <g-link
-            :to="recordLink(relatedRecord.node)"
-            class="btn btn-lg btn-primary"
-            >Continue reading</g-link
+    <section class="bg-white w-100" style="box-shadow: 0 0 13px 8px #0000005c;">
+      <b-container class="pt-3 mb-5">
+        <b-row>
+          <b-col
+            order="2"
+            order-lg="1"
+            cols="12"
+            lg="8"
+            class="article-content"
           >
-        </b-col>
-      </b-row>
-    </b-container>
+            <div v-html="$page.entry.content" />
+          </b-col>
+          <b-col
+            class="d-none d-lg-block"
+            lg="3"
+            order="1"
+            order-lg="2"
+            offset-lg="1"
+          >
+            <SectionSidebar :record="$page.entry"></SectionSidebar>
+          </b-col>
+        </b-row>
+      </b-container>
+
+      <b-container fluid v-if="relatedRecords.length == 2">
+        <b-row class="text-center pt-5 bg-gray-100">
+          <b-col>
+            <h2 class="display-4">You might also like</h2>
+          </b-col>
+        </b-row>
+
+        <b-row class="height-30 bg-gray-100 pb-5 related-records">
+          <b-col
+            sm="12"
+            md="6"
+            class="pr-5 pl-5 mt-5 border-right"
+            v-for="relatedRecord in relatedRecords"
+            :key="relatedRecord.node.id"
+          >
+            <h4 class="">{{ relatedRecord.node.title }}</h4>
+            <p v-html="relatedRecord.node.excerpt"></p>
+
+            <g-link
+              :to="recordLink(relatedRecord.node)"
+              class="btn btn-lg btn-primary"
+              >Continue reading</g-link
+            >
+          </b-col>
+        </b-row>
+      </b-container>
+    </section>
   </DefaultLayout>
 </template>
 

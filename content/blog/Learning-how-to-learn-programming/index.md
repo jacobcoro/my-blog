@@ -1,5 +1,5 @@
 ---
-title: Learning how to learn programming by programming a learning program
+title: Learning how to Learn Programming by Programming a Learning Program
 tags: Programming, Learning Programming, Development, CSS, SRS, Spaced Repetition, Motivation, Learning Strategies, IPFC
 excerpt: As developers we are in a unique position that learning is a core and continuous part of our work.
 createdAt: 2020-05-01 16:26:00
@@ -9,7 +9,7 @@ _There are highlights and flashcards for this page! Get the most out of this art
 
 ![META](https://media.giphy.com/media/gY5sEujrJbCve/giphy.gif)
 
-## We all need to learn how to learn
+## Learn how to learn
 
 As developers we are in a unique position that learning is a **core and continuous part of our work.** Mislead by the oft-cited [10,000 hour rule](https://www.bbc.com/future/article/20121114-gladwells-10000-hour-rule-myth), you might be inclined to think that just putting in enough hours will be enough.
 
@@ -87,9 +87,9 @@ Immersion might be a familiar concept for language learning, and its definition 
 
 2x speed through tutorials of libraries or things you’re not really planning on using, just to get a familiarity. Subscribe to YouTubers who talk about the profession in general and not just tutorials, like [Traversy Media](https://www.youtube.com/watch?v=askbjJx-BQg&list=RDCMUC29ju8bIPH5as8OGnQzwJyA&startradio=1&t=14), [Chris Hawkes](https://www.youtube.com/user/noobtoprofessional) , [Stefan Mischook](https://www.youtube.com/channel/UCyUBW72KU30dfAYWLVNZO8Q), [Joshua Fluke](https://www.youtube.com/channel/UC-91UA-Xy2Cvb98deRXuggA), [Andy Sterkowitz](https://www.youtube.com/channel/UCZ9qFEC82qM6Pk-54Q4TVWA), and many more. Remember to take what they say with a grain of salt. You can also watch the cheesy clickbait-y videos like “what is the best frontend framework of 2020”, but take those with an even larger grain of salt.
 
-Community might sound intimidating for a lot of people who don’t friends who are are programmers, but online communities can be great too. Joining an open source project is wonderful, but often intimidating for beginners. It’s best that the community has **real and not forced ties**. You should be working on something together or involved in the same narrow interest. Taking a MOOC and creating a Slack/Discord server with your peers is a great idea. Even non-programming communities can help. Use whatever your interest are to drive your projects and community involvement. Into sports? Ask what kind of apps sports fans would like, or how apps they use can be improved and try to make something for the community. Real world projects and real world feedback will do propel you to new heights.
+Community might sound intimidating for a lot of people who don’t have friends who are are programmers, but online communities can be great too. Joining an open source project is wonderful, but often intimidating for beginners. It’s best that the community has **real and not forced ties**. You should be working on something together or involved in the same narrow interest. Taking a MOOC and creating a Slack/Discord server with your peers is a great idea. Even non-programming communities can help. Use whatever your interest are to drive your projects and community involvement. Into sports/painting/whatever? Ask what kind of apps other hobbiests would like, or how apps they currently use can be improved, and try to make something for the community. Real world projects and real world feedback will propel you to new heights.
 
-In my project, I was able to discuss with my friends and associates who are teachers, programmers, and those interested in distributed networks. I was also gained a lot from the Reddits for Anki and other learning themed Reddits to inform me what real users of similar software are thinking and have some dialogue with them.
+In my project, I was able to discuss with my friends and associates who are teachers, programmers, and those interested in distributed networks. I was also gained a lot from the Reddits for Anki and other learning themed Reddits to inform me what real users of similar software are thinking and I was able to have some dialogue with them.
 
 ## How IPFC uses these concepts to help you learn
 
@@ -97,7 +97,7 @@ _Shameless plug in 3…2…1…_
 
 Inter Planetary Flash Cards is a flashcard app that, like Anki, uses a spaced repetition algorithm to maximize review efficiency. **IPFC is fully open source**, including the API. Similar to a the idea of [self hosting](https://www.reddit.com/r/selfhosted/), IPFC gives you greater control and ownership of their data by automatically generating a [piñata.cloud](https://pinata.cloud) account for you, and using it to back up your data on the [Inter Planetary File System](https://ipfs.io/) at every sync.
 
-Clearly, the project most directly uses the concepts of Active Recall and Spaced Repetition. IPFC seeks to make these habits easier to pick up and integrate into your work flow. For example, one that is especially **useful to programmers** is that with the IPFC browser extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) , you can quickly save answers you looked up on Stack Overflow or an online tutorial. You’ll have those instantly added to your review schedule on the [IPFC web app](https://www.ipfc.tech/home) and you’ll always have a reference for where you found that information.
+Clearly, the project most directly uses the concepts of Active Recall and Spaced Repetition. IPFC seeks to make these habits easier to pick up and integrate into your work flow. For example, one that is especially **useful to programmers** is that with the IPFC browser extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) you can effortlessly save answers you looked up on Stack Overflow or an online tutorial. You’ll have those instantly added to your review schedule on the [IPFC web app](https://www.ipfc.tech/home) and you’ll always have a reference for where you found that information.
 
 IPFC is great for learning syntax, and memorizing APIs. Get the extension then follow the link to the [w3schools CSS Selectors Reference](https://www.w3schools.com/cssref/cssselectors.asp) and collect the ready made flashcards.
 

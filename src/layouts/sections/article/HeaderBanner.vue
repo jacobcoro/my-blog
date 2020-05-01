@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="sticky-header">
     <b-container id="article-header" class="p-1 m-0 d-flex flex-column">
       <g-image id="writing" src="~/resources/images/writing.png"></g-image>
       <b-row class="article-header-row p-0 m-0">
@@ -23,7 +23,14 @@ export default {
   props: ['record'],
 };
 </script>
-<style>
+<style scoped>
+.sticky-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-height: 170px;
+  z-index: -1;
+}
 #article-header {
   background-color: #c60;
   justify-content: center;
