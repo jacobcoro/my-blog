@@ -1,7 +1,8 @@
 ---
 title: Searching for a practical architecture for a decentralized app
 tags: Programming, Development, Decentralization, IPFC, IPFS
-excerpt:
+excerpt: As developers we are in a unique position that learning is a core and continuous part of our work.
+createdAt: 2020-05-01 16:26:00
 ---
 
 A lot of people want to create decentralized applications just because they are a cool buzzword.
