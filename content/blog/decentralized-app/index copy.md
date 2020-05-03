@@ -35,7 +35,7 @@ Finally, I’ll compare the strategies that I’m considering.
 
 ## State of the flashcard app
 
-![flashcards](~https://media.giphy.com/media/xT5LMNj95KDAoj2AEw/giphy.gif~)
+![flashcards](https://media.giphy.com/media/xT5LMNj95KDAoj2AEw/giphy.gif)
 
 [Anki](https://ankiweb.net/) is an app that uses a [Spaced Repetition](https://en.wikipedia.org/wiki/Spacedrepetition) algorithm to plan your reviews in the most efficient schedule. It has a desktop app, and native mobile apps. It’s an open source project but the API that syncs user’s collections of cards (decks) is not open source nor publicly accessible. Its extremely **powerful** and customizable, but its UI is a bit **outdated**, and with 13 years of unrestrained feature creep, new users often find it overwhelming.
 
@@ -65,7 +65,7 @@ Some examples of **benefits** to development in this open system would be **game
 
 Complaining about lack of standardization is a common theme in computer science. Those of you who’ve encountered the issue before might be worried that this will just further complicate the field and not end up bringing unity. I’d say that this case is different for a few reasons.
 
-[standards](https://imgs.xkcd.com/comics/standards.png)
+![standards](https://imgs.xkcd.com/comics/standards.png)
 
 First off, flashcards are simple and the current field of platforms and formats is small. At the very simplest, they can just have a back and front text field. I’ve compared the file formats for the biggest platforms, and they are not incompatible at all. The difficulties I had were more about lack of effort from the platforms than anything else. Because Anki is open source, users have created plugins that successfully convert from all the major platforms.
 
@@ -99,7 +99,7 @@ Some options that I find more intriguing are [Self-Hosting](https://www.reddit.c
 
 **Self-hosting** were it not **too difficult to set up** would be a great option and would actually solve almost all the goals except for #5. If you had your cards posted on your own server, you could grant access to any app that needed them. I could write an API script that people could drop into their server and #5 might be possible by having a few databases run by the flashcard apps, and users could opt in to update them with changes. But until self hosting is easier, this scenario is not very realistic and is a horrible UX.
 
-![Why IPFS? - Juan Benet - YouTube](https://youtu.be/zE_WSLbqqvo)
+[Why IPFS? - Juan Benet - YouTube](https://youtu.be/zE_WSLbqqvo)
 
 IPFS is an entirely new way of structuring the internet where the basic unit of sharing is not a URL address, but the hash of a piece of data. The hash essentially is the address. When you post, or ‘**pin**’ something to the IPFS, it’s really just still on your computer. You are just announcing that it’s available to the world. In a way it’s similar to self hosting. But if your computer that is pinning it goes offline, so does your data. There are pinning services like [Pinata.cloud](https://www.pinata.cloud) that can **keep your data online** all the time, and most have a generous free tier.
 
@@ -107,7 +107,7 @@ But unlike a self hosted server, the way that you can **interact with data** on 
 
 This get’s us to #1., #2. #3., and progress but not perfect on goal #4. Piñata.cloud still has the ability to delete or withhold your data, although this is better than the card app owning it because it at least spreads out control, and they have have less incentive to withhold and ransom it. As with self-hosting, #5 is still an issue; where and how can users share cards and what would be their incentives to do so?
 
-![CRDTs and the Quest for Distributed Consistency - YouTube](https://www.youtube.com/watch?v=B5NULPSiOGw)
+[CRDTs and the Quest for Distributed Consistency - YouTube](https://www.youtube.com/watch?v=B5NULPSiOGw)
 
 Next up is CDRTs which are kind of like neat-o JSON files with built in conflict resolution. The library we’d probably use for this is called [automerge · GitHub](https://github.com/automerge) and it means users could sync their data against each other with no central authority, and really helps with requirement #2. It allows for better **offline use,** syncing across devices, and collaboration. Like IPFS, it can even be used by peers connecting to each other without going through a central server. These are some cool features, and It’d be nice if we had them, but they don’t solve our core goals. But maybe there is a way that CDRTs can fit into the plan.
 
@@ -117,19 +117,24 @@ Another consideration is that to enable efficient searching of others cards, we 
 
 Currently, the IPFC ([web app](https://www.ipfc.tech/home) and [GitHub](https://github.com/IPFC/)) achieves a partial solution to these 5 goals, but I’m looking for ways to take it to the next level.
 
-It’s a Vue.js app with a Python Flask backend REST API and a Postgres database. It’s all open source, and the API is currently available for access by the public as well. When users sign up they receive a piñata.cloud account with 1GB of free storage. On every sync with my API, their decks are also pinned to their piñata account. I also use the piñata account to store their media. This reduces the load on the db/API and essentially transfers the storage cost to the customer. If they go over 1GB of storage they have to start paying piñata for it. Quizlet is freemium but you also have to pay for images and audio so it’s a comparable cost. As a bonus, if they pay piñata it’s supporting the decentralized web architecture. This kind of storage scheme might be an attractive new model to start ups to provide more free value to users by lowering operational costs.
+![IPFC logo](https://github.com/IPFC/Inter-Planetary-Flash-Cards/blob/master/public/img/icons/icon-128x128.png?raw=true)
+
+IPFC is a Vue.js app with a Python Flask backend REST API and a Postgres database. It’s all **open source**, and the **API is open** for access by the public as well. When users sign up they receive a piñata.cloud account with 1GB of free storage. On every sync with my API, their decks are also pinned to their piñata account.This allows for a third-party **backup** and also provides versioning.
+
+I also use the piñata account to **store user's media**. This reduces the load on the db/API and essentially transfers the storage cost to the customer. If they go over 1GB of storage they have to start paying piñata for it. Quizlet is freemium but you also have to pay for images and audio so it’s a comparable cost. This kind of storage scheme might be an attractive new model to start ups to provide more free value to users by lowering operational costs. As a bonus, if they pay piñata it’s supporting the decentralized web architecture.
 
 I’m therefore able to achieve 1, 2, 5, and _sort of_ 4.
 
-- [x] 1. Users can access and edit their cards from any participating platform.
-- [x] 2. Changes are synced.
-- [ ] 3. API/database is open and not owned by any one platform.
-- [x] 4. Cards are not ‘owned’ by any platform.
-- [x] 5. Users can search, browse and collect other’s cards.
+- [x] (1) _Users can access and edit their cards from any participating platform._
+- [x] (2) _Changes are synced._
+- [ ] (3) **API/database is open and not owned by any one platform.**
+- [x] (4) _Cards are not ‘owned’ by any platform._
+- [x] (5) _Users can search, browse and collect other’s cards._
 
 One thing I’ve already accomplished to show the value of the interoperability made possible possible by greater sharing of educational data is the IPFC browser extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) and [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob). It’s especially **useful to programmers** because you can quickly highlight and create flashcards of answers you looked up on Stack Overflow or an online tutorial. You’ll have those instantly added to your review schedule and you’ll always have a reference for where you found that information.
 
 ![IPFC extension](https://lh3.googleusercontent.com/8gjdpATm7WBxmrtppGbhM18hX7FdCafNAMm8zKIeZtdX5EIfvfPtWDaP283YMsk7DeKtMA86iQ=w640-h400-e365)
+_IPFC browser extension_
 
 Some of the **next things** I want to work on are an Anki app that **syncs your Anki** collection with your IPFC collection. I’d also like to dig into some of the open source LMSs and see if we can help users extract quiz/flashcard data from online courses for reviewing on Anki/IPCF. I could take this project pretty far with it’s current architecture, and prove the case that **interoperability is powerful**, but for now I can probably only work with open source projects. If I want to convince companies like Quizlet to join such a network, I would need to find a way to **make the API/database more decentralized** so that they don’t fear being suddenly shut out or customers losing service to a feature they are enjoying.
 
