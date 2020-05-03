@@ -16,6 +16,7 @@ import '~/resources/scss/theme.scss';
 import 'prismjs/themes/prism.css';
 import '~/resources/scss/prism-theme.scss';
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+import VueDisqus from 'vue-disqus';
 
 config.autoAddCss = false;
 
@@ -48,6 +49,7 @@ export default function(Vue, { head }) {
   Vue.use(BootstrapVue);
 
   Vue.use(VueFuse);
+  Vue.use(VueDisqus);
 
   head.meta.push({
     charset: 'utf-8',

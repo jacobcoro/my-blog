@@ -30,6 +30,7 @@
     "remark-attr": "^0.10.0",
     "remark-rehype": "^5.0.0",
     "vue": "^2.6.11",
+    "vue-disqus": "^3.0.5",
     "vue-fuse": "^2.2.1",
     "vue-svg-loader": "^0.16.0"
   },

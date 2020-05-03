@@ -52,6 +52,7 @@
         </b-row>
       </b-container>
     </section>
+    <sectionComments></sectionComments>
   </DefaultLayout>
 </template>
 
@@ -92,11 +93,13 @@
 <script>
 import SectionHeader from '~/layouts/sections/article/HeaderBanner.vue';
 import SectionSidebar from '~/layouts/sections/article/Sidebar.vue';
+import Comments from '../layouts/sections/article/Comments.vue';
 import { sampleSize } from 'lodash';
 export default {
   components: {
     SectionHeader,
     SectionSidebar,
+    sectionComments: Comments,
   },
 
   methods: {
