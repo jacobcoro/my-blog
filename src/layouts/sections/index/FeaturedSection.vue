@@ -26,8 +26,21 @@
               </b-row>
             </b-container>
 
-            <div class="bg-white p-3 feature-box" id="article-box">
-              <h1>A False Dichotomy</h1>
+            <div
+              @click="
+                $router.push({
+                  path:
+                    '/blog/learning-how-to-learn-programming-by-programming-a-learning-program',
+                })
+              "
+              class="bg-white p-3 feature-box"
+              id="article-box"
+            >
+              <g-link
+                to="/blog/learning-how-to-learn-programming-by-programming-a-learning-program"
+              >
+                <h1>A False Dichotomy</h1>
+              </g-link>
               <p>
                 Rote learning is often seen as the antithesis of creative,
                 active, project-based, etc. progressive education philosophies.
@@ -42,6 +55,7 @@
           </div>
         </b-col>
         <b-col
+          @click="$router.push({ path: '/projects' })"
           id="featured-project"
           class="p-4 overflow-hidden home-page-section"
           lg="6"
