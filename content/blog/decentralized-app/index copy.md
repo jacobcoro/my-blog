@@ -39,7 +39,7 @@ Finally, I’ll compare the strategies that I’m considering.
 
 [Anki](https://ankiweb.net/) is an app that uses a [Spaced Repetition](https://en.wikipedia.org/wiki/Spacedrepetition) algorithm to plan your reviews in the most efficient schedule. It has a desktop app, and native mobile apps. It’s an open source project but the API that syncs user’s collections of cards (decks) is not open source nor publicly accessible. Its extremely **powerful** and customizable, but its UI is a bit **outdated**, and with 13 years of unrestrained feature creep, new users often find it overwhelming.
 
-[Quizlet](https://quizlet.com/) is the[most popular](https://www.cnbc.com/2017/08/23/quizlet-a-popular-study-app-faces-a-moment-of-truth.html) flash card app in America, used by half of all high school students. It's **visually appealing** and has many features tailored to the **classroom setting**.
+[Quizlet](https://quizlet.com/) is the [most popular](https://www.cnbc.com/2017/08/23/quizlet-a-popular-study-app-faces-a-moment-of-truth.html) flash card app in America, used by half of all high school students. It's **visually appealing** and has many features tailored to the **classroom setting**.
 
 [Gimkit](https://www.gimkit.com) is a classroom game that my high school students _loved_. They literally begged me to play it. It’s a cooperative/competitive **game** created by a high school student. Students race to answer flashcards and earn coins and there are power-ups and weapons.
 
