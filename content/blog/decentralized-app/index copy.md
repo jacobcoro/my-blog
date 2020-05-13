@@ -117,7 +117,7 @@ Another consideration is that to enable efficient searching of others cards, we 
 
 Currently, the IPFC ([web app](https://www.ipfc.tech/home) and [GitHub](https://github.com/IPFC/)) achieves a partial solution to these 5 goals, but I’m looking for ways to take it to the next level.
 
-![IPFC logo](https://github.com/IPFC/Inter-Planetary-Flash-Cards/blob/master/public/img/icons/icon-128x128.png)
+![IPFC logo](https://gateway.pinata.cloud/ipfs/QmVrR7hJko4fEQqk2VJ9je4XQj3jYR5gauoMgLF6t1ED74)
 
 IPFC is a Vue.js app with a Python Flask backend REST API and a Postgres database. It’s all **open source**, and the **API is open** for access by the public as well. When users sign up they receive a piñata.cloud account with 1GB of free storage. On every sync with my API, their decks are also pinned to their piñata account.This allows for a third-party **backup** and also provides versioning.
 
