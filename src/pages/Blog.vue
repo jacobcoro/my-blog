@@ -3,7 +3,7 @@
     <SectionHeaderBanner
       :totalCount="$page.records.totalCount"
     ></SectionHeaderBanner>
-    <section class="pt-5 mb-5">
+    <section id="blog-body" class="mb-3 pt-2">
       <b-container class="pb-5">
         <div>
           <b-row>
@@ -77,3 +77,10 @@ export default {
     }
   }
 </page-query>
+
+<style scoped>
+#blog-body {
+  background-color: #878787;
+  min-height: calc(100vh - 210px);
+}
+</style>

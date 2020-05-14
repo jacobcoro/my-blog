@@ -11,7 +11,7 @@
       <b-row class="projects-header-row">
         <b-col cols="12" class="p-0 m-0 d-flex justify-content-end">
           <p id="projects-header-subtitle" class="title sm-txt mr-1">
-            web sites | web apps | & more
+            web dev
           </p>
         </b-col></b-row
       >

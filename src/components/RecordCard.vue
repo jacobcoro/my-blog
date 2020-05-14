@@ -1,6 +1,6 @@
 <template>
-  <b-col class="py-2" md="6" lg="4" sm="6">
-    <b-card class="h-100" footer-class="border-0 bg-white">
+  <b-col style="padding:10px" md="6" lg="4" sm="6">
+    <b-card class="record-card" footer-class="border-0 bg-white">
       <g-link class="card-link" :to="recordLink">
         <b-card-title tag="h4">
           {{ record.title }}
@@ -37,3 +37,15 @@ export default {
   },
 };
 </script>
+<style scoped>
+.record-card {
+  box-shadow: 0px 0px 40px rgba(65, 53, 3, 0.5);
+  border-radius: 15px;
+  padding: 0;
+  background-color: white;
+  margin: 0;
+}
+.record-card:hover {
+  box-shadow: 0px 0px 40px rgba(255, 204, 0, 0.5);
+}
+</style>

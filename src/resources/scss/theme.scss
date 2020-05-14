@@ -108,6 +108,34 @@ code {
   background-color: rgb(147, 147, 147);
 }
 
+.card-columns {
+  // column-gap: 0;
+
+  @include media-breakpoint-only(xl) {
+    column-count: 2;
+  }
+
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+
+  @include media-breakpoint-only(md) {
+    column-count: 2;
+  }
+
+  @include media-breakpoint-only(sm) {
+    column-count: 1;
+  }
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card-footer:last-child {
+  border-radius: 1rem;
+}
+
 blockquote {
   padding: 11px 20px;
   font-size: 1.25rem;

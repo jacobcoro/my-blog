@@ -143,6 +143,7 @@ export default {};
 .feature-box {
   height: 300px;
   cursor: pointer;
+  overflow: hidden;
 }
 #article-box {
   box-shadow: 0px 0px 150px rgba(255, 204, 0, 0.51);
