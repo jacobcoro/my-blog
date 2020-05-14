@@ -1,8 +1,7 @@
-<template id="app">
+<template>
   <div>
     <DefaultLayout @scroll-to-contact="toggleScrollToContact()">
       <SectionHeaderBanner></SectionHeaderBanner>
-
       <SectionProjectsSection></SectionProjectsSection>
     </DefaultLayout>
   </div>
@@ -32,12 +31,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-#app {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-</style>

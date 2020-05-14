@@ -39,14 +39,16 @@
               <g-link
                 to="/blog/learning-how-to-learn-programming-by-programming-a-learning-program"
               >
-                <h1>A False Dichotomy</h1>
+                <h1>
+                  Learning how to Learn Programming by Programming a Learning
+                  Program
+                </h1>
               </g-link>
               <p>
-                Rote learning is often seen as the antithesis of creative,
-                active, project-based, etc. progressive education philosophies.
-                But in reality they can go hand in hand. Like most things in
-                life, both “sides” of this debate, are harmful when taken to the
-                extreme. People often cite Americans’ low math...
+                Developers we are in a unique position. Learning is a core and
+                continuous part of our work. Mislead by the oft-cited 10,000
+                hour rule, you might be inclined to think that just putting in
+                enough...
               </p>
             </div>
             <g-link to="/blog">
@@ -55,7 +57,7 @@
           </div>
         </b-col>
         <b-col
-          @click="$router.push({ path: '/projects' })"
+          @click="$router.push({ path: '/projects/#ipfc-webapp' })"
           id="featured-project"
           class="p-4 overflow-hidden home-page-section"
           lg="6"

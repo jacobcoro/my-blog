@@ -1,7 +1,7 @@
 ---
 title: Learning how to Learn Programming by Programming a Learning Program
 tags: Programming, Learning Programming, Development, CSS, SRS, Spaced Repetition, Motivation, Learning Strategies, IPFC
-excerpt: As developers we are in a unique position that learning is a core and continuous part of our work.
+excerpt: Developers we are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
 createdAt: 2020-05-01 16:26:00
 ---
 
@@ -11,7 +11,7 @@ _There are highlights and flashcards for this page! Get the most out of this art
 
 ## Learn how to learn
 
-As developers we are in a unique position that learning is a **core and continuous part of our work.** Mislead by the oft-cited [10,000 hour rule](https://www.bbc.com/future/article/20121114-gladwells-10000-hour-rule-myth), you might be inclined to think that just putting in enough hours will be enough.
+Developers we are in a unique position. Learning is a **core and continuous part of our work.** Mislead by the oft-cited [10,000 hour rule](https://www.bbc.com/future/article/20121114-gladwells-10000-hour-rule-myth), you might be inclined to think that just putting in enough hours will be enough.
 
 While a certain **quantity** of practice time is of course necessary, what’s more important is **quality**. We need to be constantly rethinking and experimenting with **how** we learn and practice. The most important factors in my studies have been:
 

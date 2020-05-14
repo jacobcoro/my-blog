@@ -24,13 +24,13 @@
       <g-link v-if="$route.path !== '/blog'" to="/blog" class="nav-link" exact
         >Blog</g-link
       >
-      <g-link
+      <!-- <g-link
         v-if="$route.path !== '/resources'"
         to="/resources"
         class="nav-link"
         exact
         >Resources</g-link
-      >
+      > -->
       <g-link
         v-if="$route.path !== '/projects'"
         to="/projects"
@@ -124,6 +124,7 @@ export default {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 45px;
   background-color: black;
   z-index: 50000;
   display: flex;

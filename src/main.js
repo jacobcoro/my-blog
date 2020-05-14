@@ -7,8 +7,8 @@ import VueFuse from 'vue-fuse';
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { config, library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faLink, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 import '~/resources/scss/theme.scss';
@@ -20,8 +20,7 @@ import VueDisqus from 'vue-disqus';
 
 config.autoAddCss = false;
 
-library.add(fas);
-library.add(fab);
+library.add(faLink, faSearch, faGithub);
 
 // router
 export default function(Vue, { head }) {

@@ -1,6 +1,9 @@
 <template>
   <div>
-    <slot />
+    <div class="scroller">
+      <slot />
+    </div>
+
     <FooterPartial @scroll-to-contact="toggleScrollToContact()" />
   </div>
 </template>
