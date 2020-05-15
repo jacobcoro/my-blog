@@ -1,6 +1,19 @@
 ---
 title: Learning how to Learn Programming by Programming a Learning Program
-tags: Programming, Learning Programming, Development, CSS, SRS, Spaced Repetition, Motivation, Learning Strategies, IPFC
+tags:
+  [
+    'Learning Programming',
+    'Development',
+    'Spaced Repetition',
+    'Motivation',
+    'Learning Strategies',
+  ]
+
+created: '5-01-2020'
+
+canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/learning-how-to-learn-programming-by-programming-a-learning-program/
+license: 'public-domain'
+# These need to be removed when using markdown-to-medium
 excerpt: Developers we are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
 createdAt: 2020-05-01 16:26:00
 ---
@@ -73,7 +86,7 @@ _from Wired_
 
 Spaced repetition software (SRS) uses a simple algorithm to spaces out your review times to longer and longer intervals. It’s been proven time and again to be the most time efficient and effective way to retain information over a long period. Apps like [Anki](https://ankiweb.net/) can help you create flashcards and plan out your review schedule. Anki is especially popular with medical students and language learners who deal with large amounts of pure memorization.
 
-It’s tempting to just dump every single pice of information you encounter into an SRS app, but it’s important to remember a few caveats: never memorize what you don’t understand. Don’t put too much info on one card. Try to use ‘active’ not ‘passive’ recall by removing hints from the answer. For learning programming that would mean writing: “how you write a for loop in python”. with the code on the back, instead of seeing the code on the front and asking what it does. Writing good cards is an art in its own and deserves a whole tutorial of its own. The creator of the first SRS, [Supermemo](https://super-memo.com/), has [some](https://www.supermemo.com/en/archives1990-2015/articles/20rules) [great thoughts](https://supermemo.guru/wiki/Donotmemorizebeforeyouunderstand)on the topic. [Here](https://www.jackkinsella.ie/articles/janki-method-refined)’s a very detailed article about using Anki for learning programming, and a [simpler](https://sivers.org/srs) and even [simpler](https://www.freecodecamp.org/news/use-spaced-repetition-with-anki-to-learn-to-code-faster-7c334d448c3c/) one.
+It’s tempting to just dump every single pice of information you encounter into an SRS app, but it’s important to remember a few caveats: never memorize what you don’t understand. Don’t put too much info on one card. Try to use ‘active’ not ‘passive’ recall by removing hints from the answer. For learning programming that would mean writing: “how you write a for loop in python”. with the code on the back, instead of seeing the code on the front and asking what it does. Writing good cards is an art in its own and deserves a whole tutorial of its own. The creator of the first SRS, [Supermemo](https://super-memo.com/), has [some](https://www.supermemo.com/en/archives1990-2015/articles/20rules) [great thoughts](https://supermemo.guru/wiki/Donotmemorizebeforeyouunderstand) on the topic. [Here](https://www.jackkinsella.ie/articles/janki-method-refined)’s a very detailed article about using Anki for learning programming, and a [simpler](https://sivers.org/srs) and even [simpler](https://www.freecodecamp.org/news/use-spaced-repetition-with-anki-to-learn-to-code-faster-7c334d448c3c/) one.
 
 > I realize more and more that software development is an exercise of quiet, stoic self-discipline.
 
