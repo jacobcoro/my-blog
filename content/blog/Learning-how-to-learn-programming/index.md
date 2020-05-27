@@ -14,7 +14,7 @@ created: '5-01-2020'
 canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/learning-how-to-learn-programming-by-programming-a-learning-program/
 license: 'public-domain'
 # These need to be removed when using markdown-to-medium
-excerpt: Developers we are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
+excerpt: Developers are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
 createdAt: 2020-05-01 16:26:00
 ---
 
@@ -24,7 +24,7 @@ _There are highlights and flashcards for this page! Get the most out of this art
 
 ## Learn how to learn
 
-Developers we are in a unique position. Learning is a **core and continuous part of our work.** Mislead by the oft-cited [10,000 hour rule](https://www.bbc.com/future/article/20121114-gladwells-10000-hour-rule-myth), you might be inclined to think that just putting in enough hours will be enough.
+Developers are in a unique position. Learning is a **core and continuous part of our work.** Mislead by the oft-cited [10,000 hour rule](https://www.bbc.com/future/article/20121114-gladwells-10000-hour-rule-myth), you might be inclined to think that just putting in enough hours will be enough.
 
 While a certain **quantity** of practice time is of course necessary, what’s more important is **quality**. We need to be constantly rethinking and experimenting with **how** we learn and practice. The most important factors in my studies have been:
 
