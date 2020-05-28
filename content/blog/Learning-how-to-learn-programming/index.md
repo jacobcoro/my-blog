@@ -75,7 +75,7 @@ Over the course of my project, I’ve learned about topics like UX planning and 
 The next essential element is about how you first learn and then review information.
 This is perhaps the most effective study technique, but it takes discipline. When I’m learning something new to use in my project I often just want to get hacking away with it immediately. But when I strictly apply this method I retain far, far more.
 
-> Software development is an exercise of quiet, stoic self-discipline
+> Using spaced repetition … you will never forget what you learned.
 
 First of all, When you are learning something new, don’t just mindlessly highlight or take notes copying right from the source. Stop every few minutes to write a summary of what you just learned without looking at the original source. Can you explain it in plain English? Try to explain why it’s important and how it relates to other things. More on this: [the 50/50 rule](https://medium.com/personal-growth/the-50-50-rule-how-to-retain-and-remember-90-of-everything-you-learn-fa5c99d2543d) and [How To Remember Everything You Learn - YouTube](https://www.youtube.com/watch?v=V-UvSKe8jW4&t=173s)
 
