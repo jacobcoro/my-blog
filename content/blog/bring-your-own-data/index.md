@@ -9,7 +9,7 @@ created: '5-27-2020'
 # license: 'public-domain'
 # This needs to be removed when using markdown-to-medium
 excerpt: Developers we are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
-createdAt: 2020-05-01 16:26:00
+createdAt: 2020-05-27 16:26:00
 ---
 
 **_this is a rough draft_**
