@@ -5,7 +5,7 @@ tags:
     'Learning Programming',
     'Software Development',
     'vue',
-    'e2e Testing'
+    'e2e Testing',
     'Unit Testing',
   ]
 
