@@ -1,7 +1,7 @@
 ---
 title: B.Y.O.D. The Promise of User-Siloed Data in EdTech and Beyond
 
-tags: [Programming, EdTech, Decentralization, IPFC, IPFS]
+tags: ['Programming', 'EdTech', 'Decentralization', 'IPFC', 'IPFS']
 
 created: '5-27-2020'
 # These need to be added when using markdown-to-medium

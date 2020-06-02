@@ -3,7 +3,7 @@ title: Learning how to Learn Programming by Programming a Learning Program
 tags:
   [
     'Learning Programming',
-    'Development',
+    'Software Development',
     'Spaced Repetition',
     'Motivation',
     'Learning Strategies',

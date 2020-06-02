@@ -1,6 +1,8 @@
 ---
 title: Searching for a practical architecture for a decentralized app
-tags: Programming, Development, Decentralization, IPFC, IPFS
+tags:
+  ['Programming', 'Software Development', 'Decentralization', 'IPFC', 'IPFS']
+
 excerpt: Because it’s easy to get lost in the weeds when combing through all the available options,keeping the end goal and user experience first and foremost is paramount to success.
 createdAt: 2020-05-03 13:00:00
 ---
