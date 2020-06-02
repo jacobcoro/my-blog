@@ -14,13 +14,15 @@ created: '6-01-2020'
 canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/sandbox-vue-CRUD/
 license: 'public-domain'
 # These need to be removed when using markdown-to-medium
-excerpt: Developers are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
-createdAt: 2020-06-01 16:26:00
+# excerpt: Developers are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
+# createdAt: 2020-06-01 16:26:00
 ---
 
 _There are highlights and flashcards for this page! Get the most out of this article by viewing and collecting them with the IPFC [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) extension._
 
 This project can be found here on [GitHub - Jewcub/sandbox-flashcard-app-vue: A simple flashcard app in vue with CRUD operations to try out new techniques and libraries](https://github.com/Jewcub/sandbox-flashcard-app-vue)
+
+[sand castle](~https://media.giphy.com/media/3ohjUXmwKu8DLE7AWY/giphy.mp4~)
 
 The javascript ecosystem is incredibly dynamic. There are new tools, libraries and frameworks coming out every day. Every time we see one of these shiny new objects we’d love to try it out in our app but sometimes we are held back by the complexity of inserting something new into a large project. I’ve found that a simple sandbox app can be a great way to try out new things!
 
