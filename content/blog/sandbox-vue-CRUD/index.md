@@ -11,7 +11,7 @@ tags:
 
 created: '6-01-2020'
 
-canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/simplesandbox-design-and-use-a-Vue-CRUD-app-for-testing-and-learning/
+canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/sandbox-vue-CRUD/
 license: 'public-domain'
 # These need to be removed when using markdown-to-medium
 excerpt: Developers are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
