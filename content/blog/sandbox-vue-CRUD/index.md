@@ -14,8 +14,8 @@ created: '6-01-2020'
 canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/sandbox-vue-CRUD/
 license: 'public-domain'
 # These need to be removed when using markdown-to-medium
-# excerpt: Developers are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
-# createdAt: 2020-06-01 16:26:00
+excerpt: Developers are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
+createdAt: 2020-06-01 16:26:00
 ---
 
 _There are highlights and flashcards for this page! Get the most out of this article by viewing and collecting them with the IPFC [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) extension._
@@ -81,6 +81,8 @@ export interface Card {
 ```
 
 So if you were thinking about how to store this in a database, you might just throw it all in one SQL table or NoSQL collection called **decks**. But you might also want to split it up into one table/collection for **decks** and one for **cards**, possibly with referential relationships between them. So with this sandbox we can test some of the challenges we might encounter handling those considerations like tricky one-to-many and many-to-many relationships. You could fill out the example even more by adding a **users** table/collection with even more relationships.
+
+![app-screenshot](https://gateway.pinata.cloud/ipfs/QmQmgxynkYYYSBgtKEXAimvbonLk32PenP7WagwvBFRX46)
 
 The UI of the app is simple. All of the operations are laid out on one page. The UX doesn’t necessarily make sense from a real world use case, but it lets you test out your CRUD operations very quickly. You can make different router views for each of your tests and switch between them at the top. When you try out the two initial test cases I included you’ll see that when you refresh the ‘Vanilla Vue CRUD’ view, your cards will be lost, but when you refresh the ‘Vuex Persisted’ view, your cards will still be there.
 
