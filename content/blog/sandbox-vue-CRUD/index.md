@@ -24,6 +24,8 @@ This project can be found here on [GitHub - Jewcub/sandbox-flashcard-app-vue: A 
 
 The javascript ecosystem is incredibly dynamic. There are new tools, libraries and frameworks coming out every day. Every time we see one of these shiny new objects we’d love to try it out in our app but sometimes we are held back by the complexity of inserting something new into a large project. I’ve found that a simple sandbox app can be a great way to try out new things!
 
+> a simple sandbox app can be a great way to try out new things!
+
 I’d like to introduce my sandbox app to you so that you can use it in your development, or build your own similar sandbox for testing. I’ll show you some of it’s **features**, my thought process in **designing** it, and examples of **how to use it** to test new libraries. You could use it as a front-end to practice building a back-end, or to test out frontend features in Vue.
 
 Oftentimes when we are making a little sandbox to try out a feature, we don’t want to spend time making tests and end up wasting a lot of time manually testing. This sandbox takes care of that for you in an incredibly convenient way (see 'To create a new view and test suite' near the end of the article)
