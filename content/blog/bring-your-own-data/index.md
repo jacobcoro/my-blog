@@ -74,7 +74,7 @@ Anyone can share files for free P2P on the IPFS, but if you’d like to have you
 
 ![IPFS homepage](https://gateway.pinata.cloud/ipfs/Qmc2ZUW9NDKXjbQBgNM9j3g9ugMy4HoiJ2vhbDt4a92jRG)
 
-Ideally, I would prefer that app providers would pay, and in much the same way they already do. They would put up the pinning costs that are comparable if not cheaper than current cloud storage solutions like AWS. But currently it isan unsolved technical challenge, to figure out which apps are storing what in the EduVault and how to make sure they keep it pinned. The simpler solution is that users pay for data. Right now the pinning service Pinata offers 1GB free storage, and competitive rates after that.
+Ideally, I would prefer that app providers would pay, and in much the same way they already do. They would put up the pinning costs that are comparable if not cheaper than current cloud storage solutions like AWS. But currently it is an unsolved technical challenge, to figure out which apps are storing what in the EduVault and how to make sure they keep it pinned. The simpler solution is that users pay for data. Right now the pinning service Pinata offers 1GB free storage, and competitive rates after that.
 
 ### Interoperability and compatibility with current apps
 
