@@ -142,4 +142,4 @@ Some of the **next things** I want to work on are an Anki app that **syncs your 
 
 I’d love to hear some feedback and ideas, or even better, for you to join the project and make it happen. Check out the [GitHub](https://github.com/ipfc) and my [website](https://www.jacobcohen-rosenthal.me/#contact) to get in touch and get involved.
 
-want to read more? … previous article: [Learning how to learn programming by programming a learning program](~https://www.jacobcohen-rosenthal.me/blog/learning-how-to-learn-programming-by-programming-a-learning-program/~)
+want to read more? … previous article: [Learning how to learn programming by programming a learning program](https://www.jacobcohen-rosenthal.me/blog/learning-how-to-learn-programming-by-programming-a-learning-program/)
