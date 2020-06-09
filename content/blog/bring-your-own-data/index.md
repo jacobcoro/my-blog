@@ -3,13 +3,13 @@ title: B.Y.O.D. The Promise of User-Siloed Data in EdTech and Beyond
 
 tags: ['Programming', 'EdTech', 'Decentralization', 'IPFC', 'IPFS']
 
-created: '5-27-2020'
+created: '6-9-2020'
 # These need to be added when using markdown-to-medium
 # canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/b-y-o-d-the-promise-of-user-siloed-data-in-ed-tech-and-beyond
 # license: 'public-domain'
 # This needs to be removed when using markdown-to-medium
 excerpt: Developers we are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
-createdAt: 2020-05-27 16:26:00
+createdAt: 2020-06-09 16:26:00
 ---
 
 _There are highlights and flashcards for this page! Get the most out of this article by viewing and collecting them with the IPFC [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) extension._
@@ -74,7 +74,7 @@ Anyone can share files for free P2P on the IPFS, but if you’d like to have you
 
 ![IPFS homepage](https://gateway.pinata.cloud/ipfs/Qmc2ZUW9NDKXjbQBgNM9j3g9ugMy4HoiJ2vhbDt4a92jRG)
 
-Ideally, I would prefer that app providers would pay, and in much the same way they already do. They would put up the pinning costs that are comparable if not cheaper than current cloud storage solutions like AWS. But currently it isan unsolved technical challenge, to figure out which apps are storing what in the EduVault and how to make sure they keep it pinned. The simpler solution is that users pay for data. Right now the pinning service Pinata offers 1GB free storage, and competative rates after that.
+Ideally, I would prefer that app providers would pay, and in much the same way they already do. They would put up the pinning costs that are comparable if not cheaper than current cloud storage solutions like AWS. But currently it isan unsolved technical challenge, to figure out which apps are storing what in the EduVault and how to make sure they keep it pinned. The simpler solution is that users pay for data. Right now the pinning service Pinata offers 1GB free storage, and competitive rates after that.
 
 ### Interoperability and compatibility with current apps
 
