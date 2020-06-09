@@ -22,7 +22,7 @@ _There are highlights and flashcards for this page! Get the most out of this art
 
 This project can be found here on [GitHub - Jewcub/sandbox-flashcard-app-vue: A simple flashcard app in vue with CRUD operations to try out new techniques and libraries](https://github.com/Jewcub/sandbox-flashcard-app-vue)
 
-[sand castle](~https://media.giphy.com/media/3ohjUXmwKu8DLE7AWY/giphy.mp4~)
+[sand castle](https://media.giphy.com/media/3ohjUXmwKu8DLE7AWY/giphy.mp4)
 
 The javascript ecosystem is incredibly dynamic. There are new tools, libraries and frameworks coming out every day. Every time we see one of these shiny new objects we’d love to try it out in our app but sometimes we are held back by the complexity of inserting something new into a large project. I’ve found that a simple sandbox app can be a great way to try out new things!
 
@@ -88,7 +88,7 @@ The UI of the app is simple. All of the operations are laid out on one page. The
 
 ### CRUD operations
 
-I tried to abstract everything I could from the components, such that the top level of the view contains just the CRUD operations. This is following the the ‘container component’ model also from [Marcus Oberlehner](~https://markus.oberlehner.net/blog/advanced-vue-component-composition-with-container-components/~). Components are all unit tested, but the container (in this case the views) are e2e tested. All API and vuex calls should only go through the container, and the components are only dealing with their props and emits, so they are reliable and easy to test. You can find all of the CRUD ops here in `methods:`
+I tried to abstract everything I could from the components, such that the top level of the view contains just the CRUD operations. This is following the the ‘container component’ model also from [Marcus Oberlehner](https://markus.oberlehner.net/blog/advanced-vue-component-composition-with-container-components/). Components are all unit tested, but the container (in this case the views) are e2e tested. All API and vuex calls should only go through the container, and the components are only dealing with their props and emits, so they are reliable and easy to test. You can find all of the CRUD ops here in `methods:`
 
 ```ts
     createDeck: function(deck: Deck) {
@@ -171,8 +171,8 @@ If you don’t want to use **vuex**, delete that view, and the store folder, and
 
 As you’ll see if you check out the project, the example use case is testing out two vuex libraries:
 
-- A vuex typescript helper called direct-vuex [docs](~https://github.com/paleo/direct-vuex~) and [tutorial](~https://itnext.io/use-a-vuex-store-with-typing-in-typescript-without-decorators-or-boilerplate-57732d175ff3~)
-- Vuex persist to persist user keys in cookies [github](~https://github.com/championswimmer/vuex-persist~) and flashcards in the local storage.
+- A vuex typescript helper called direct-vuex [docs](https://github.com/paleo/direct-vuex) and [tutorial](https://itnext.io/use-a-vuex-store-with-typing-in-typescript-without-decorators-or-boilerplate-57732d175ff3)
+- Vuex persist to persist user keys in cookies [github](https://github.com/championswimmer/vuex-persist) and flashcards in the local storage.
 
 I also used this project to learn about unit, snapshot and e2e testing, typescript, and BEM style CSS. If you’d like to learn these techniques, you can read more about them from links in the README and then extend the sandbox with new features, while using these techniques. I also plan to use this to learn Vue 3, and to try out vuex-orm and other libraries.
 
