@@ -53,4 +53,4 @@ With Gridsome offering a plugin-rich ecosystem, there are a few key plugins that
 - Create an article with the token passed through --token
 - The token is now stored locally for future use, rinse repeat
 
-Usage: `$ markdown-to-medium <path to markdown>`
+Usage: `$ markdown-to-medium <path to markdown file>`

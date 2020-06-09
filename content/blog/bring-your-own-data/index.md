@@ -5,7 +5,7 @@ tags: ['Programming', 'EdTech', 'Decentralization', 'IPFC', 'IPFS']
 
 created: '5-27-2020'
 # These need to be added when using markdown-to-medium
-# canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/bring-your-own-data/
+# canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/b-y-o-d-the-promise-of-user-siloed-data-in-ed-tech-and-beyond
 # license: 'public-domain'
 # This needs to be removed when using markdown-to-medium
 excerpt: Developers we are in a unique position. Learning is a core and continuous part of our work. Mislead by the oft-cited 10,000 hour rule, you might be inclined to think that just putting in enough hours will be enough.
@@ -14,7 +14,7 @@ createdAt: 2020-05-27 16:26:00
 
 _There are highlights and flashcards for this page! Get the most out of this article by viewing and collecting them with the IPFC [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) extension._
 
-I wrote recently about my [search for a practical architecture for a decentralized app](~https://www.jacobcohen-rosenthal.me/blog/searching-for-a-practical-architecture-for-a-decentralized-app~) and it seems I’ve found a solution. I discovered [Textile - A network of applications, connected through interoperable data, where data is owned by the users.](~https://textile.io/~)
+I wrote recently about my [search for a practical architecture for a decentralized app](https://www.jacobcohen-rosenthal.me/blog/searching-for-a-practical-architecture-for-a-decentralized-app) and it seems I’ve found a solution. I discovered [Textile - A network of applications, connected through interoperable data, where data is owned by the users.](~https://textile.io/~)
 
 [BYOD: bring you own data | Carson Farmer | textile.io - YouTube](~https://www.youtube.com/watch?v=glbV7azZ0vY~)
 
