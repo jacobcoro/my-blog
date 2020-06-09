@@ -14,13 +14,13 @@ createdAt: 2020-05-27 16:26:00
 
 _There are highlights and flashcards for this page! Get the most out of this article by viewing and collecting them with the IPFC [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) extension._
 
-I wrote recently about my [search for a practical architecture for a decentralized app](https://www.jacobcohen-rosenthal.me/blog/searching-for-a-practical-architecture-for-a-decentralized-app) and it seems I’ve found a solution. I discovered [Textile - A network of applications, connected through interoperable data, where data is owned by the users.](~https://textile.io/~)
+I wrote recently about my [search for a practical architecture for a decentralized app](https://www.jacobcohen-rosenthal.me/blog/searching-for-a-practical-architecture-for-a-decentralized-app) and it seems I’ve found a solution. I discovered [Textile - A network of applications, connected through interoperable data, where data is owned by the users.](https://textile.io/)
 
-[BYOD: bring you own data | Carson Farmer | textile.io - YouTube](~https://www.youtube.com/watch?v=glbV7azZ0vY~)
+[BYOD: bring you own data | Carson Farmer | textile.io - YouTube](https://www.youtube.com/watch?v=glbV7azZ0vY)
 
 In this video, Carson Farmer from Textile lays out the big problems we are facing on the internet today and offers an innovative solution. Currently, most user data is owned by the big tech companies and “siloed”, or sequestered in huge data centers around the world. Just some of the issues this creates:
 
-Centralized data silos worsen the impacts of **hacks and data breaches**, for example the [Equifax breach](~https://en.wikipedia.org/wiki/Equifax#May%E2%80%93July_2017_data_breach~).
+Centralized data silos worsen the impacts of **hacks and data breaches**, for example the [Equifax breach](https://en.wikipedia.org/wiki/Equifax#May%E2%80%93July_2017_data_breach).
 
 Users have little idea about **how their data is being used**, and whether it is being used in ways that exploit them or abuse their privacy.
 
