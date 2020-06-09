@@ -3,7 +3,7 @@ title: Searching for a practical architecture for a decentralized app
 tags:
   ['Programming', 'Software Development', 'Decentralization', 'IPFC', 'IPFS']
 
-excerpt: Because it’s easy to get lost in the weeds when combing through all the available options,keeping the end goal and user experience first and foremost is paramount to success.
+excerpt: For serious users of flashcard programs, ownership of their data becomes more and more important with their reliance on the study system. Whether or not they can trust a platform...
 createdAt: 2020-05-03 13:00:00
 ---
 
