@@ -26,7 +26,7 @@ Users have little idea about **how their data is being used**, and whether it is
 
 ## Innovation and Interoperability
 
-Corporate siloed data **stifles innovation**. if smaller companies or individual developers want to use users data in a new way, either they have no access to it or need to pay fees they can’t afford. The processes of finding, requesting, accessing and transferring that data can also be limiting.
+Corporate siloed data **stifles innovation**. If smaller companies or individual developers want to use users data in a new way, either they have no access to it or need to pay fees they can’t afford. The processes of finding, requesting, accessing and transferring that data can also be limiting.
 
 Likewise, from the consumer perspective, corporate siloed data stifles **interoperability**. Big tech uses their data monopoly to force users to use their whole line of products, regardless of whether each app is really the best for the user. If users owned their own data, apps could just become ‘skins’ for that data, and they could try out new apps effortlessly.
 
