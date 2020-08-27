@@ -52,17 +52,34 @@ export default {
 }
 #venn-left {
   border-radius: 105px;
-
   width: 210px;
   height: 210px;
   z-index: 2;
   background: rgba(255, 0, 0, 0.5);
+  animation: 2s ease-out 0s 1 slideInLeft;
 }
 #venn-right {
   border-radius: 105px;
   width: 210px;
   height: 210px;
   background: #339cd0;
+  animation: 2s ease-out 0s 1 slideInRight;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 #home-face-logo {
   z-index: 3;
