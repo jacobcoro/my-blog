@@ -5,6 +5,13 @@
         <b-col cols="10" class="p-0 d-flex">
           <h4 class="project-title align-self-center">My website</h4></b-col
         >
+        <b-col cols="2" class="pl-0 py-2 d-flex">
+          <g-image
+            class="align-center"
+            width="100%"
+            src="~/resources/images/my-face-logo.svg"
+          ></g-image
+        ></b-col>
       </b-row>
       <hr class="my-1" />
       <b-row class="my-1">
