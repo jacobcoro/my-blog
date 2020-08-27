@@ -16,11 +16,11 @@
 </template>
 
 <script>
-import { ProjectIPFCWebapp as IpfcWebapp } from './proj-components/ProjectIPFCWebapp';
-import { ProjectIPFCExt as IpfcExtension } from './proj-components/ProjectIPFCExt';
-import { ProjectMyBlog as MyBlog } from './proj-components/ProjectMyBlog';
-import { ProjectEduvault as Eduvault } from './proj-components/ProjectEduVault';
-import { ProjectDotwallet as Dotwallet } from './proj-components/ProjectDotwallet';
+import IpfcWebapp from './components/ProjectIPFCWebapp.vue';
+import IpfcExtension from './components/ProjectIPFCExt.vue';
+import MyBlog from './components/ProjectMyBlog.vue';
+import Eduvault from './components/ProjectEduVault.vue';
+import Dotwallet from './components/ProjectDotwallet.vue';
 export default {
   components: {
     IpfcWebapp,

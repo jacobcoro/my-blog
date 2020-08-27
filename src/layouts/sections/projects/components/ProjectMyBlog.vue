@@ -12,7 +12,7 @@
           <p>
             A personal website to host my blog and showcase my web development
             work. The site was built with Vue.js, using Gridsome and Bootstrap
-            4.
+            4. Design mockups were done on Figma.
           </p>
         </b-col>
         <b-col sm="12" class="d-flex">
