@@ -26,16 +26,16 @@
                 I can make websites and web apps. Starting with some UX
                 brainstorming techniques, I make basic designs using Photoshop
                 and Figma, create Javascript front-ends mostly with Vue.js, and
-                build backends mostly with Python Flask, connected to a
-                PostgreSQL database.
+                build backends mostly with Python Flask or Node.js Koa/Express,
+                and connect to PostgreSQL, MondoDB, and ThreadsDB databases.
               </p>
               <p class="about-p mb-5">
                 I’ve used a wide variety of frameworks and libraries like
-                Bootstrap, JQuery and Gridsome. I’ve solved tricky logical
-                problems like a handwritten cloud sync. I’ve explored cutting
-                edge technologies like distributed and decentralized
-                architecture and integrated them in my projects in a meaningful
-                way.
+                Bootstrap, JQuery, Nuxt and Gridsome. I’ve solved tricky logical
+                problems like a handwritten cloud sync merge with conflict
+                resolution. I’ve explored cutting edge technologies like
+                distributed and decentralized architecture and integrated them
+                in my projects in a meaningful way.
               </p>
               <div class="bottom-space"></div>
             </b-row>
@@ -65,8 +65,8 @@
               <p class="about-p">
                 Based on my teaching research and my own experience learning
                 Chinese and programming, I’m a strong proponent of
-                project-based-learning accompanied by modest conventional
-                memorization. Technology will play an ever greater role in
+                project-based-learning accompanied by computer assisted review
+                and memorization. Technology will play an ever greater role in
                 education and I’m excited to be on the forefront of this change.
               </p></b-row
             >
@@ -86,16 +86,15 @@
             <b-row>
               <p class="about-p mt-5">
                 I’m from Ithaca, NY and live in Fuzhou, China. I’m fluent in
-                Chinese. I used to love cooking. I once started a Mexican
-                restaurant by selling burritos on the street in Fuzhou. With 3
-                locations, and 50 employees we were the largest and longest
-                running foreign run establishment in our city of 8 million.
+                Chinese. I started a Mexican restaurant by selling burritos on
+                the street in Fuzhou. At 5 years, 3 locations and 50 employees,
+                we were the largest and longest running foreign run
+                establishment in our city of 8 million.
               </p>
               <p class="about-p">
                 I studied Psychology and Ceramic Art in college, which remain
-                hobbies of mine. I love playing guitar and piano to relax after
-                a long day studying. Next February, if you can’t think of
-                birthday present for me, dark chocolate will do just fine.
+                interests of mine. I love playing guitar and piano. I used to
+                love cooking.
               </p></b-row
             >
             <b-row class="mt-3 ml-0 mr-0 ">
