@@ -57,7 +57,7 @@
 </template>
 
 <page-query>
-  query Article($recordId: ID!, $tags: [String]) {
+  query Article($recordId: ID!, $tags: [ID]) {
     entry: article(id: $recordId) {
       title
       content
