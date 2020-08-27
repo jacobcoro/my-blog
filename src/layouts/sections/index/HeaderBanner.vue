@@ -94,5 +94,9 @@ export default {
 }
 #home-technology {
   margin-top: -15px;
+  animation: 2s ease-out 0s 1 slideInRight;
+}
+#home-education {
+  animation: 2s ease-out 0s 1 slideInLeft;
 }
 </style>
