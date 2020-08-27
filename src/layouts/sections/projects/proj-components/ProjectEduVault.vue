@@ -18,17 +18,12 @@
       <hr class="my-1" />
       <b-row class="my-1">
         <b-col sm="12">
-          <ul class="v-2 mx-0">
-            <li>Save highlights and flashcards from around the web.</li>
-            <li>
-              View card and highlights that others have made, and instantly add
-              them to your own collection.
-            </li>
-            <li>
-              Create beautiful cards with text formatting and inserted media.
-            </li>
-            <li>And much more ...</li>
-          </ul>
+          <p class="mx-0">
+            Own your own data and do more with your educational apps. Eduvault
+            stores your data on an encrypted personal cloud, stored on a
+            distributed network. Sign in with EduVault and take your learning
+            progress with you, syncing automatically between apps.
+          </p>
         </b-col>
         <b-col sm="12" class="d-flex">
           <g-image
