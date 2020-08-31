@@ -95,6 +95,18 @@
                 I studied Psychology and Ceramic Art in college, which remain
                 interests of mine. I love playing guitar and piano. I used to
                 love cooking.
+              </p>
+              <p class="about-p">
+                I'm currently working at
+                <a href="https://en.fjmu.edu.cn/">Fujian Medical University</a>
+                as an English Language Instructor, and at Bitcoin
+                <a href="https://www.mempool.com/">mining</a> and
+                <a href="https://dotwallet.com">wallet</a> company
+                <a href="https://www.boquaninc.com"
+                  >Fuzhou Boquan Network Technology Co., Ltd</a
+                >
+                doing developer outreach, front-end development, and translation
+                of technical documentation.
               </p></b-row
             >
             <b-row class="mt-3 ml-0 mr-0 ">
