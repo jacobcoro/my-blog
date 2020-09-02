@@ -49,7 +49,7 @@ Should you use **social pressure** as an extrinsic motivator? Be careful about a
 
 Besides social pressure, other kinds of ultimatums, or commitments you can’t back out of are referred to as ‘throwing your backpack over the wall’ in _Happiness_ by [Tal Ben Shahar](http://www.talbenshahar.com/) and can also be effective motivators. Doing freelance work, or taking a paid class are good examples of this technique
 
-![PERMA](http://www.authentichappiness.sas.upenn.edu/sites/default/files/PERMA.png)
+![PERMA](https://gateway.pinata.cloud/ipfs/QmfL8Z8fXrXeBRn24jVWL34PVUnKTgWGng4pSzWrJoLrHA)
 _Source: Authentic Happiness Website — University of Pennsylvania_
 
 Consider the [The PERMA Model](https://positivepsychology.com/perma-model/) of well being. Intrinsic enjoyment of coding and solving problems will help you achieve **P** (positive emotion) and **E** (engagement), and eventual mastery will give you **A** (achievement). But don’t overlook **M** (meaning) and **R** (relationships). You’ll find that when you can create a project that will help others, and that you can connect with others doing, you will have much greater motivation. I also recommend Happiness by [Tal Ben Shahar](http://www.talbenshahar.com/), [How to Have a Good Day by Caroline Webb](https://www.amazon.com/How-Have-Good-Day-Behavioral/dp/0553419633), and [Deep Work by Cal Newport](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692) for great tips about how to stay happy, healthy, focused, and motivated along your learning journey.
