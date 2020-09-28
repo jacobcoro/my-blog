@@ -41,12 +41,12 @@
             </b-row>
           </b-container>
         </b-col>
-        <b-col id="education-accumen" class="home-page-section" lg="6">
+        <b-col id="education-acumen" class="home-page-section" lg="6">
           <b-container class="max-width-400"
             ><b-row class="ml-n4"
               ><b-col style="z-index:500" cols="6" class="ml-n3 mt-3  ">
                 <p class="title sm-txt mb-n2">Education</p>
-                <p class="title lg-txt">Accumen</p> </b-col
+                <p class="title lg-txt">Acumen</p> </b-col
               ><b-col cols="6"
                 ><g-image
                   id="apple"
@@ -192,7 +192,7 @@ export default {
 #programming-chops {
   background-color: #cc6600;
 }
-#education-accumen {
+#education-acumen {
   background-color: #339cd0;
 }
 #my-story {
