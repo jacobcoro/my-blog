@@ -31,7 +31,7 @@
       </b-row>
       <b-row class="py-1 px-3">
         <a
-          href="https://github.com/Jewcub/my-blog"
+          href="https://github.com/jacobcoro/my-blog"
           target="_blank"
           class="nav-link project-link text-dark"
           alt="Github"

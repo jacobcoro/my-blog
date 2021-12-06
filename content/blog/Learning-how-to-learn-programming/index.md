@@ -62,7 +62,7 @@ I don’t think I need to explain the merits of this one too much. Most people l
 
 I started out doing [Codecademy](https://www.codecademy.com/) tutorials on Python, and took the MIT [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-to-computer-science-and-programming-7) course on EdX; both excellent courses. But when I set out to make something on my own I realized I had forgotten or not deeply understood many of the concepts.
 
-So I made a text based [GitHub - text-based flashcard game in python](https://github.com/Jewcub/PythonFlashCards) and a [desktop flashcard app with PyQt](https://github.com/Jewcub/IPFCPythonapp). Then I realized that because I was more interested in apps and internet technology, I should shift to javascript. This time I spent less time on tutorials. After just doing some basic ones, I dived right in and started making things like a [personal website](https://jacobcohen-rosenthal.me/).
+So I made a text based [GitHub - text-based flashcard game in python](https://github.com/jacobcoro/PythonFlashCards) and a [desktop flashcard app with PyQt](https://github.com/jacobcoro/IPFCPythonapp). Then I realized that because I was more interested in apps and internet technology, I should shift to javascript. This time I spent less time on tutorials. After just doing some basic ones, I dived right in and started making things like a [personal website](https://jacobcohen-rosenthal.me/).
 
 ![IPFC webapp](https://www.jacobcohen-rosenthal.me/assets/static/IPFC-demo.4520fc0.52e09fe3da2aea497aeabab0f25fecf3.gif)
 

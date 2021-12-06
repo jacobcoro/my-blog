@@ -20,7 +20,7 @@ createdAt: 2020-06-01 16:26:00
 
 _There are highlights and flashcards for this page! Get the most out of this article by viewing and collecting them with the IPFC [Firefox](https://addons.mozilla.org/en-US/firefox/addon/inter-planetary-flash-cards/) or [Chrome](https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob) extension._
 
-This project can be found here on [GitHub - Jewcub/sandbox-flashcard-app-vue: A simple flashcard app in vue with CRUD operations to try out new techniques and libraries](https://github.com/Jewcub/sandbox-flashcard-app-vue)
+This project can be found here on [GitHub - jacobcoro/sandbox-flashcard-app-vue: A simple flashcard app in vue with CRUD operations to try out new techniques and libraries](https://github.com/jacobcoro/sandbox-flashcard-app-vue)
 
 [sand castle](https://media.giphy.com/media/3ohjUXmwKu8DLE7AWY/giphy.mp4)
 

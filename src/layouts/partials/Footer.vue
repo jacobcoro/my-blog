@@ -47,7 +47,7 @@
       </a>
       <b-navbar-brand v-if="windowWidth > 500" class="d-flex mr-0">
         <a
-          href="https://github.com/Jewcub"
+          href="https://github.com/jacobcoro"
           target="_blank"
           class="nav-link text-light"
           alt="Github"
