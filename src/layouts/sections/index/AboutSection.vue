@@ -85,13 +85,13 @@
         <b-col id="my-story" class="home-page-section" lg="6">
           <b-container class="max-width-400">
             <b-row>
-              <p class="about-p">
+              <p class="about-p mt-5">
                 I'm currently working as a full-time front-end software engineer
                 at
                 <a href="https://kava.io/">Kava Labs</a>, where I work on
                 implementing blockchain solutions for decentralized finance.
               </p>
-              <p class="about-p mt-5">
+              <p class="about-p">
                 I’m from Ithaca, NY and live in Fuzhou, China. I’m fluent in
                 Chinese. I started a Mexican restaurant by selling burritos on
                 the street in Fuzhou. At 5 years, 3 locations and 50 employees,
