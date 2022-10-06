@@ -86,9 +86,8 @@
           <b-container class="max-width-400">
             <b-row>
               <p class="about-p mt-5">
-                I'm currently working as a full-time front-end software engineer
-                at
-                <a href="https://kava.io/">Kava Labs</a>, where I work on
+                My most recent job was full-time front-end software engineer at
+                <a href="https://kava.io/">Kava Labs</a>, where I worked on
                 implementing blockchain solutions for decentralized finance.
               </p>
               <p class="about-p">
@@ -124,11 +123,26 @@
                 src="~/resources/images/the-touch.png"
               ></g-image>
             </b-row>
-            <b-row class="ml-n4 contact-info-row">
+            <b-row class="contact-info-row">
               <p class="title sm-txt mt-4">get in</p>
               <p class="title lg-txt mt-n2 ml-1">touch</p>
               <p class="about-p mt-n5">jacob@jacobcohen-rosenthal.me</p>
               <div id="contact" class="bottom-space"></div>
+            </b-row>
+            <b-row class="contact-info-row"> </b-row>
+            <b-row class="contact-info-row mb-5">
+              <a
+                href="https://www.linkedin.com/in/jacob-cohen-rosenthal-763597b9/"
+              >
+                <p class="about-p">LinkedIn</p>
+              </a>
+              <p class="about-p mx-2">|</p>
+
+              <a
+                href="https://gateway.pinata.cloud/ipfs/QmcxpB6TVrdtDBJca4NLYk61nusdyRXsDh6MFbLXrMAmkM?fbclid=IwAR17a8D-pxrIxWDngbcbGynFLW16l4oXJa5uBijQ42PdMpieDL7FF4rTRyc"
+              >
+                <p class="about-p">Resume</p>
+              </a>
             </b-row>
           </b-container>
         </b-col>
@@ -149,12 +163,12 @@ export default {
   },
   methods: {
     startScroll() {
-      var elmnt = document.getElementById("contact");
+      var elmnt = document.getElementById('contact');
       elmnt.scrollIntoView();
     },
   },
   mounted() {
-    if (window.location.hash === "#contact") {
+    if (window.location.hash === '#contact') {
       this.$nextTick(() => {
         this.startScroll();
       });
@@ -217,9 +231,9 @@ export default {
   opacity: 0.5;
   max-width: 100%;
   max-height: 100%;
+  margin-bottom: -50px;
 }
 .contact-info-row {
-  margin-top: -50px;
   display: flex;
   align-items: center;
   justify-content: center;
