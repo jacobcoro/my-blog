@@ -139,7 +139,7 @@
               <p class="about-p mx-2">|</p>
 
               <a
-                href="https://gateway.pinata.cloud/ipfs/QmcxpB6TVrdtDBJca4NLYk61nusdyRXsDh6MFbLXrMAmkM?fbclid=IwAR17a8D-pxrIxWDngbcbGynFLW16l4oXJa5uBijQ42PdMpieDL7FF4rTRyc"
+                href="https://gateway.pinata.cloud/ipfs/QmaHfGyUCZ9YBas446wA3tKDQr8dLQcn2DtSnN1ePj2h4g"
               >
                 <p class="about-p">Resume</p>
               </a>
