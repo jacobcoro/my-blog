@@ -91,11 +91,11 @@
                 implementing blockchain solutions for decentralized finance.
               </p>
               <p class="about-p">
-                I’m from Ithaca, NY and live in Fuzhou, China. I’m fluent in
-                Chinese. I started a Mexican restaurant by selling burritos on
-                the street in Fuzhou. At 5 years, 3 locations and 50 employees,
-                we were the largest and longest running foreign run
-                establishment in our city of 8 million.
+                I’m from Ithaca, NY. I’m fluent in Chinese. I started a Mexican
+                restaurant by selling burritos on the street in Fuzhou. At 5
+                years, 3 locations and 50 employees, we were the largest and
+                longest running foreign run establishment in our city of 8
+                million.
               </p>
               <p class="about-p">
                 I studied Psychology and Ceramic Art in college. I love playing
