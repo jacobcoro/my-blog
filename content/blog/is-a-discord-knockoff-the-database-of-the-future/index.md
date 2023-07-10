@@ -13,13 +13,15 @@ That’s a bit hyperbolic I admit, but hear me out, there is something to this
 
 ## Internet, We Have a Problem
 
+![this internet is getting shittier all the time](https://imgflip.com/i/7s44ea)
+
 ### Incessant, Unescapable Enshittification
 
 The internet sucks (in many ways) and it could be a lot better. As The Guardian eloquently put it, [we are all trapped in the ‘enshittification’ of the internet](https://www.theguardian.com/commentisfree/2023/mar/11/users-advertisers-we-are-all-trapped-in-the-enshittification-of-the-internet). . This term, coined by the famed tech author [Cory Doctorow](https://pluralistic.net/) describes a phenomenon in which tech companies amass market share and create a user dependency so strong that both users and advertisers feel trapped.
 
 ### Surveillance Capitalism
 
-If you've ever heard the phrase "You're not the customer, you're the product", you're already familiar with the concept of [Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism). Popularized by the [The Social Dilemma](https://en.wikipedia.org/wiki/The_Social_Dilemma), this philosophy is central to the process of enshittification. Networks and platforms create walled gardens so impenetrable that users have no choice but to surrender their privacy, contacts, and content to the corporate hivemind.
+If you've ever heard the phrase "You're not the customer, you're the product", you're already familiar with the concept of [Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism). Popularized by the [The Social Dilemma](https://en.wikipedia.org/wiki/The_Social_Dilemma), this philosophy is central to the process of enshittification. npm run devNetworks and platforms create walled gardens so impenetrable that users have no choice but to surrender their privacy, contacts, and content to the corporate hivemind.
 
 ### The Grip of Walled Gardens and Vendor Lock-In
 
@@ -28,6 +30,8 @@ Take a moment to think about platforms like Twitter, YouTube, and Instagram. How
 ### Personal Lock-In
 
 Adding another layer to this issue is personal lock-in. When you store data in an app - be it photos, notes, or videos - the more you accumulate, the more difficult it becomes to leave. Even when data exports are possible, they're often challenging to implement and rarely in a format that's compatible with other apps. Consequently, users get trapped within each app's data silo. If these apps don't support mods and plugins, they effectively become walled gardens, resulting in bloated software. Think of Evernote and Notion. [Obsidian](https://obsidian.md/) however serves is a great example of a note-taking app that promotes interconnectivity through plugins and third-party sync options.
+
+![big tech cryptonite - Interoperability](https://imgflip.com/i/7s45vr)
 
 ## Part of the solution - Interoperability
 
