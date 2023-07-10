@@ -5,7 +5,7 @@ tags: [Programming, Development, Decentralization, Federation, Matrix]
 excerpt: Fight the enshittification of the internet with a decentralized database
 createdAt: 2023-07-09 13:00:00
 # These need to be added when using markdown-to-medium
-# canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/is-a-discord-knockoff-the-database-of-the-future
+# canonicalUrl: https://www.jacobcohen-rosenthal.me/blog/is-a-discord-knockoff-the-decentralized-database-of-the-future-will-it-fix-the-internet-as-we-know-it/
 # license: 'public-domain'
 ---
 
@@ -13,7 +13,7 @@ That’s a bit hyperbolic I admit, but hear me out, there is something to this
 
 ## Internet, We Have a Problem
 
-![this internet is getting shittier all the time](https://imgflip.com/i/7s44ea)
+![this internet is getting shittier all the time](https://i.imgflip.com/7s44ea.jpg)
 
 ### Incessant, Unescapable Enshittification
 
@@ -31,7 +31,7 @@ Take a moment to think about platforms like Twitter, YouTube, and Instagram. How
 
 Adding another layer to this issue is personal lock-in. When you store data in an app - be it photos, notes, or videos - the more you accumulate, the more difficult it becomes to leave. Even when data exports are possible, they're often challenging to implement and rarely in a format that's compatible with other apps. Consequently, users get trapped within each app's data silo. If these apps don't support mods and plugins, they effectively become walled gardens, resulting in bloated software. Think of Evernote and Notion. [Obsidian](https://obsidian.md/) however serves is a great example of a note-taking app that promotes interconnectivity through plugins and third-party sync options.
 
-![big tech cryptonite - Interoperability](https://imgflip.com/i/7s45vr)
+![big tech cryptonite - Interoperability](https://i.imgflip.com/7s45vr.jpg)
 
 ## Part of the solution - Interoperability
 
