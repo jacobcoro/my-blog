@@ -17,7 +17,7 @@ That’s a bit hyperbolic I admit, but hear me out, there is something to this
 
 ### Incessant, Unescapable Enshittification
 
-The internet sucks (in many ways) and it could be a lot better. As The Guardian eloquently put it, [we are all trapped in the ‘enshittification’ of the internet](https://www.theguardian.com/commentisfree/2023/mar/11/users-advertisers-we-are-all-trapped-in-the-enshittification-of-the-internet). . This term, coined by the famed tech author [Cory Doctorow](https://pluralistic.net/) describes a phenomenon in which tech companies amass market share and create a user dependency so strong that both users and advertisers feel trapped.
+The internet sucks (in many ways) and it could be a lot better. As The Guardian eloquently put it, [we are all trapped in the ‘enshittification’ of the internet](https://www.theguardian.com/commentisfree/2023/mar/11/users-advertisers-we-are-all-trapped-in-the-enshittification-of-the-internet). This term, coined by the famed tech author [Cory Doctorow](https://pluralistic.net/) describes a phenomenon in which tech companies amass market share and create a user dependency so strong that both users and advertisers feel trapped.
 
 ### Surveillance Capitalism
 
