@@ -1,5 +1,5 @@
 ---
-title: Is a Discord Knockoff the Decentralized Database of the Future? Will It Fix the Internet as We Know It?
+title: Is a Discord Knockoff the Decentralized Database of the Future? Will It Fix the Internet?
 tags: [Programming, Development, Decentralization, Federation, Matrix]
 # This needs to be removed when using markdown-to-medium
 excerpt: Fight the enshittification of the internet with a decentralized database
