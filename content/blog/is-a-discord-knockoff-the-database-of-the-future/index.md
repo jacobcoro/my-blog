@@ -21,7 +21,7 @@ The internet sucks (in many ways) and it could be a lot better. As The Guardian 
 
 ### Surveillance Capitalism
 
-If you've ever heard the phrase "You're not the customer, you're the product", you're already familiar with the concept of [Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism). Popularized by the [The Social Dilemma](https://en.wikipedia.org/wiki/The_Social_Dilemma), this philosophy is central to the process of enshittification. npm run devNetworks and platforms create walled gardens so impenetrable that users have no choice but to surrender their privacy, contacts, and content to the corporate hivemind.
+If you've ever heard the phrase "You're not the customer, you're the product", you're already familiar with the concept of [Surveillance Capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism). Popularized by the [The Social Dilemma](https://en.wikipedia.org/wiki/The_Social_Dilemma), this philosophy is central to the process of enshittification. Networks and platforms create walled gardens so impenetrable that users have no choice but to surrender their privacy, contacts, and content to the corporate hivemind.
 
 ### The Grip of Walled Gardens and Vendor Lock-In
 
