@@ -86,9 +86,9 @@
           <b-container class="max-width-400">
             <b-row>
               <p class="about-p mt-5">
-                My most recent job was full-time front-end software engineer at
-                <a href="https://kava.io/">Kava Labs</a>, where I worked on
-                implementing blockchain solutions for decentralized finance.
+                I'm currently a senior fullstack software engineer at
+                <a href="https://boostbot.ai/">BoostBot</a> using AI to improve
+                influencer marketing and email outreach.
               </p>
               <p class="about-p">
                 I’m from Ithaca, NY. I’m fluent in Chinese. I started a Mexican
