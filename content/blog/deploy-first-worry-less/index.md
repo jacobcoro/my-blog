@@ -1,4 +1,11 @@
-# Deploy First, Worry Less: The Early Bird's Guide to Smooth Software Delivery
+---
+title: Deploy First, Worry Less
+tags: [deployment, continuous-integration, vercel, github-actions]
+excerpt: Starting with deployment and CI setup early on, even for personal side-projects, is a smart move. It simplifies the development process and uncovers potential issues early, ensuring your project is on solid footing right from the start.
+createdAt: 2024-02-11 11:26:00
+---
+
+# Deploy First, Worry Less
 
 Starting with deployment and CI setup early on, even for personal side-projects (like my passion project: [EweserDB](https://github.com/eweser/eweser-db)), is a smart move. It simplifies the development process and uncovers potential issues early, ensuring your project is on solid footing right from the start.
 
