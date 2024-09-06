@@ -86,9 +86,8 @@
           <b-container class="max-width-400">
             <b-row>
               <p class="about-p mt-5">
-                I'm currently a senior fullstack software engineer at
-                <a href="https://boostbot.ai/">BoostBot</a> using AI to improve
-                influencer marketing and email outreach.
+                I'm currently a Tech Lead (software engineer) at
+                <a href="https://creatorsamples.com">Outlandish</a>.
               </p>
               <p class="about-p">
                 I’m from Ithaca, NY. I’m fluent in Chinese. I started a Mexican
@@ -139,7 +138,7 @@
               <p class="about-p mx-2">|</p>
 
               <a
-                href="https://gateway.pinata.cloud/ipfs/QmViLvMxpQV9Z7ipF5eUp5KPdXEFqqDQva6z1HN59bkF7f"
+                href="https://gateway.pinata.cloud/ipfs/QmdAZzJC5BiAuGaYFdSExLKnKWvk6yQeDcyovX6wWhaSWd"
               >
                 <p class="about-p">Resume</p>
               </a>
